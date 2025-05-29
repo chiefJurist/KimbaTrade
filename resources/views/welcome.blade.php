@@ -56,7 +56,7 @@
         </div>
 
         {{-- navigation for smaller screens --}}
-        <div id="mobileNav" class="hidden small-screen-nav-backdrop">
+        <div id="mobileNav" class="hidden small-screen-nav-backdrop z-40">
             <div class="small-screen-nav-con">
                 <div id="closeMenu" class="flex justify-end pb-32">
                     <span class="icon-[material-symbols--cancel-outline-rounded] external-icon"></span>
@@ -76,20 +76,38 @@
         </div>
         
 
-        {{-- Third div --}}
-        <div></div>
+        {{-- first div --}}
+        <div class="relative w-full h-screen overflow-hidden">
+            <video autoplay muted loop playsinline class="absolute w-full h-full object-cover">
+                <source src="{{ asset('img/video1.mp4') }}" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
 
-        {{-- Fourth div --}}
-        <div>
-            <div class="">
-                <div class=" ">
-                    <div>Trade With Low Commissions and Tight Spreads</div>
-                    <div>
-                        With Fundflextrades you get a transparent pricing structure and a secure and regulated trading environment. As an active trader you can also qualify for lower fees and extra benefits.
-                    </div>
-                    <div class=" p-2 border border-blue-600 rounded-sm text-blue-600 w-36 text-center cursor-pointer my-1">Login</div>
+            <!-- Optional overlay content -->
+            <div class="first-div-container">
+                <div class="div-headings">Trade Shares and Forex with Financial Thinking</div>
+                <div class="mt-8 text-sm">
+                    Access 40,000+ instruments – across asset classes – to trade, hedge and invest from a single account.
                 </div>
-                <div><img src="{{ asset('img/frontpage-pricing-d.webp')}}" alt=""></div>
+                <div class="btn bg-blue-600 mt-8">Open an Account</div>
+            </div>
+
+            <!-- Optional dark overlay -->
+            <div class="absolute top-0 left-0 w-full h-full bg-black opacity-90 z-0"></div>
+        </div>
+
+
+        {{-- second div --}}
+        <div class="second-div-container">
+            <div class="md:pr-36">
+                <div class="div-headings">Trade With Low Commissions and Tight Spreads</div>
+                <div class=" mt-6 md:mt-12 text-gray-400">
+                    With Fundflextrades you get a transparent pricing structure and a secure and regulated trading environment. As an active trader you can also qualify for lower fees and extra benefits.
+                </div>
+                <div class="mt-6 md:mt-12 short-white-btn">Login</div>
+            </div>
+            <div class=" pt-10 md:pt-0">
+                <img src="{{ asset('img/frontpage-pricing-d.webp')}}" alt="" class="w-2xl md:w-5xl">
             </div>
         </div>
     </div>

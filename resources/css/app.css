@@ -1,3 +1,6 @@
+/*Importing from Google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap')
+layer(base);
 @import 'tailwindcss';
 
 @source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
@@ -8,6 +11,7 @@
 @theme {
     --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
         'Segoe UI Symbol', 'Noto Color Emoji';
+    --font-nunito: "Nunito"; 
 }
 @plugin "@iconify/tailwind4";
 
@@ -19,7 +23,7 @@ body {
   @apply py-3 bg-gray-900 justify-between items-center
 }
 .btn{
-    @apply p-2 border border-gray-100 rounded-sm font-bold text-gray-100 w-48 text-center cursor-pointer;
+    @apply p-3 border border-gray-100 rounded-sm font-bold text-gray-100 w-48 text-center cursor-pointer font-nunito;
 }
 .logo-container{
   @apply flex items-center text-gray-100 text-xs font-bold;
@@ -31,8 +35,20 @@ body {
   @apply py-4 text-sm font-semibold;
 }
 .small-screen-nav-backdrop{
-  @apply md:hidden backdrop-brightness-25 backdrop-blur-xs w-full h-full fixed top-0;
+  @apply md:hidden backdrop-brightness-25 backdrop-blur-lg w-full h-full fixed top-0;
 }
 .small-screen-nav-con{
   @apply p-6 bg-gray-900 w-64 text-gray-100 fixed top-0 right-0 h-full;
+}
+.first-div-container{
+  @apply px-6 md:px-20 py-48 md:pr-36 absolute top-0 left-0 w-full h-full  text-white z-10;
+}
+.div-headings{
+  @apply text-3xl md:text-5xl font-semibold;
+}
+.second-div-container{
+  @apply md:flex justify-between items-center px-6 md:px-20 py-20 md:py-32;
+}
+.short-white-btn{
+  @apply py-3 border border-blue-600 rounded-md font-bold text-blue-600 w-36 text-center cursor-pointer font-nunito;
 }
