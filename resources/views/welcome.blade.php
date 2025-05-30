@@ -192,6 +192,68 @@
                 </div>
             </div>
         </div>
+
+        {{--fifth div --}}
+        <div class="general-div-containtainer p-10 bg-black flex justify-center">
+            <div class="divide-y divide-gray-200 md:divide-x md:divide-y-0 md:flex">
+                <div class="p-10">
+                    <div class="div-headings text-center text-gray-100">270,000+</div>
+                    <div class="div-texts text-center text-gray-100">Daily trades</div>
+                </div>
+                <div class="p-10">
+                    <div class="div-headings text-center text-gray-100">450,000+</div>
+                    <div class="div-texts text-center text-gray-100">Clients</div>
+                </div>
+                <div class="p-10">
+                    <div class="div-headings text-center text-gray-100">20 billion+</div>
+                    <div class="div-texts text-center text-gray-100">USD daily trade volume</div>
+                </div>
+                <div class="p-10">
+                    <div class="div-headings text-center text-gray-100">95 billion+</div>
+                    <div class="div-texts text-center text-gray-100">USD assets under management</div>
+                </div>
+            </div>
+        </div>
+
+        {{--sixth div--}}
+        <div class="general-div-container">
+            <div class="div-headings text-center">Switch to Fundflextrades</div>
+            <div class="div-texts text-center text-gray-500 md:px-44">
+                At Fundflextrades we work hard to enhance your trading experience. As a global, 5 star rated broker, our client’s satisfaction is in the center of our focus.
+            </div>
+            <div class="py-10 md:grid grid-cols-3 gap-4">
+                <div class="py-6">
+                    <div class="sixth-div-icon-div"><span class="icon-[vaadin--tabs] sixth-div-icon"></span></div>
+                    <div class="sixth-div-mini-header">2100+ instruments</div>
+                    <div class="sixth-div-mini-text">Wide range of global markets, including Forex, Indices, Commodities, ETFs and more.</div>
+                </div>
+                <div class="py-6">
+                    <div class="sixth-div-icon-div"><span class="icon-[uil--shield-check] sixth-div-icon"></span></div>
+                    <div class="sixth-div-mini-header">Safe & Secure</div>
+                    <div class="sixth-div-mini-text">Fundflextrades is regulated by the world's biggest supervision authorities, including the Financial Conduct Authority.</div>
+                </div>
+                <div class="py-6">
+                    <div class="sixth-div-icon-div"><span class="icon-[uil--book-open] sixth-div-icon"></span></div>
+                    <div class="sixth-div-mini-header">Comprehensive Education</div>
+                    <div class="sixth-div-mini-text">Make use of our extensive video library and get to know more about trading.</div>
+                </div>
+                <div class="py-6">
+                    <div class="sixth-div-icon-div"><span class="icon-[hugeicons--ai-innovation-03] sixth-div-icon"></span></div>
+                    <div class="sixth-div-mini-header">Innovative Platform</div>
+                    <div class="sixth-div-mini-text">We're constantly improving our trading platform to make it the best on the market.</div>
+                </div>
+                <div class="py-6">
+                    <div class="sixth-div-icon-div"><span class="icon-[hugeicons--message-user-01] sixth-div-icon"></span></div>
+                    <div class="sixth-div-mini-header">495,000+ customers</div>
+                    <div class="sixth-div-mini-text">With years of activity in the financial markets, Fundflextrades has gained thousands of customers.</div>
+                </div>
+                <div class="py-6">
+                    <div class="sixth-div-icon-div"><span class="icon-[hugeicons--user-star-02] sixth-div-icon"></span></div>
+                    <div class="sixth-div-mini-header">Fast & highly qualified support</div>
+                    <div class="sixth-div-mini-text">Our multilingual customer support team is ready to help you - 24h hours a day.</div>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 </html>
