@@ -84,9 +84,9 @@
             </video>
 
             <!-- Optional overlay content -->
-            <div class="first-div-container">
+            <div class="general-div-container first-div-container">
                 <div class="div-headings">Trade Shares and Forex with Financial Thinking</div>
-                <div class="mt-8 text-sm">
+                <div class="div-texts">
                     Access 40,000+ instruments – across asset classes – to trade, hedge and invest from a single account.
                 </div>
                 <div class="btn bg-blue-600 mt-8">Open an Account</div>
@@ -98,16 +98,98 @@
 
 
         {{-- second div --}}
-        <div class="second-div-container">
+        <div class="general-div-container second-div-container">
             <div class="md:pr-36">
                 <div class="div-headings">Trade With Low Commissions and Tight Spreads</div>
-                <div class=" mt-6 md:mt-12 text-gray-400">
+                <div class="div-texts text-gray-500">
                     With Fundflextrades you get a transparent pricing structure and a secure and regulated trading environment. As an active trader you can also qualify for lower fees and extra benefits.
                 </div>
                 <div class="mt-6 md:mt-12 short-white-btn">Login</div>
             </div>
             <div class=" pt-10 md:pt-0">
-                <img src="{{ asset('img/frontpage-pricing-d.webp')}}" alt="" class="w-2xl md:w-5xl">
+                <img src="{{ asset('img/frontpage-pricing-d.webp')}}" alt="" class="w-xl md:w-5xl">
+            </div>
+        </div>
+
+        {{-- third div --}}
+        <div class="general-div-container">
+            <div class="div-headings">Trade over 2100 global markets</div>
+        </div>
+
+        {{-- fourth div --}}
+        <div class="general-div-container">
+            <div class="div-headings">Industry-leading prices</div>
+            <div class="div-texts text-gray-500 md:pr-90">
+                Get ultra-competitive spreads and commissions across all asset classes. Receive even better rates as your volume increases.
+            </div>
+            <div class="py-5 md:grid grid-cols-4 gap-7">
+                <div class="fourth-div-card-container">
+                    <div class="fourth-div-card-line-one">FX</div>
+                    <div class="fourth-div-card-line-two">Spread as low as</div>
+                    <div class="fourth-div-card-line-three">0.2</div>
+                    <div class="fourth-div-card-line-four">pip</div>
+                    <div class="fourth-div-card-line-five">
+                        Trade 182 FX spot pairs and 140 forwards across majors, minors, exotics and metals.
+                    </div>
+                </div>
+                <div class="fourth-div-card-container">
+                    <div class="fourth-div-card-line-one">Crypto</div>
+                    <div class="fourth-div-card-line-two">Trade from</div>
+                    <div class="fourth-div-card-line-three">0.4</div>
+                    <div class="fourth-div-card-line-four">on $500</div>
+                    <div class="fourth-div-card-line-five">
+                        Trade and invest confidently in top performing Cryptocurrencies with our timely Trading signals that ensure your profitability from day one.
+                    </div>
+                </div>
+                <div class="fourth-div-card-container">
+                    <div class="fourth-div-card-line-one">Stocks</div>
+                    <div class="fourth-div-card-line-two">Commissions from</div>
+                    <div class="fourth-div-card-line-three">$3</div>
+                    <div class="fourth-div-card-line-four">on US Stocks</div>
+                    <div class="fourth-div-card-line-five">
+                        Access 19,000+ stocks across core and emerging markets on 36 exchanges worldwide.
+                    </div>
+                </div>
+                <div class="fourth-div-card-container">
+                    <div class="fourth-div-card-line-one">Real Estate</div>
+                    <div class="fourth-div-card-line-two">Procure from as low as</div>
+                    <div class="fourth-div-card-line-three">$100</div>
+                    <div class="fourth-div-card-line-four">per slot</div>
+                    <div class="fourth-div-card-line-five">
+                        Simplified Real Estate investment for relatively small amounts through our crowdfunding model.
+                    </div>
+                </div>
+            </div>
+            <div class="flex justify-center my-5">
+                <div class="fourth-div-reg-con">
+                    <div class="flex justify-center">
+                        <div class="fourth-div-reg-btn">Start Trade</div>
+                    </div>
+                    <div class="fourth-div-reg-text">With the little you have you Trend. Join now!</div>
+                </div>
+            </div>
+            <div class="flex justify-center">
+                <div class="my-5 md:flex divide-y divide-gray-300 md:divide-x md:divide-y-0">
+                    <div class="fourth-div-rec-con">
+                        <div class="fourth-div-icon-con">
+                            <span class="icon-[streamline--customer-support-1] fourth-div-icon"></span>
+                        </div>
+                        <div class="fourth-div-rec-text">AWARD WINNING SUPPORT</div>
+                    </div>
+                    <div class="fourth-div-rec-con">
+                        <div class="fourth-div-icon-con">
+                            <span class="icon-[ph--bank-bold] fourth-div-icon"></span>
+                        </div>
+                        <div class="fourth-div-rec-text">REGULATED BY THE GSE,USA</div>
+                        <div></div>
+                    </div>
+                    <div class="fourth-div-rec-con">
+                        <div class="fourth-div-icon-con">
+                            <span class="icon-[subway--refresh-time] fourth-div-icon"></span>
+                        </div>
+                        <div class="fourth-div-rec-text">30 YEARS EXPERIENCE</div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

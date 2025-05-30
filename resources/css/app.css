@@ -40,15 +40,60 @@ body {
 .small-screen-nav-con{
   @apply p-6 bg-gray-900 w-64 text-gray-100 fixed top-0 right-0 h-full;
 }
+.general-div-container{
+  @apply px-6 md:px-20 py-8;
+}
 .first-div-container{
-  @apply px-6 md:px-20 py-48 md:pr-36 absolute top-0 left-0 w-full h-full  text-white z-10;
+  @apply md:pr-90 py-32 md:py-48 absolute top-0 left-0 w-full h-full  text-white z-10;
 }
 .div-headings{
-  @apply text-3xl md:text-5xl font-semibold;
+  @apply text-3xl md:text-4xl font-semibold;
+}
+.div-texts{
+  @apply mt-6 md:mt-12;
 }
 .second-div-container{
-  @apply md:flex justify-between items-center px-6 md:px-20 py-20 md:py-32;
+  @apply md:flex justify-between items-center;
 }
 .short-white-btn{
   @apply py-3 border border-blue-600 rounded-md font-bold text-blue-600 w-36 text-center cursor-pointer font-nunito;
+}
+.fourth-div-card-container{
+  @apply bg-gray-200 rounded-lg p-8 min-h-96 mt-8 md:my-0;
+}
+.fourth-div-card-line-one{
+  @apply text-sm font-bold py-2;
+}
+.fourth-div-card-line-two{
+  @apply text-sm text-gray-500 font-semibold;
+}
+.fourth-div-card-line-three{
+  @apply text-4xl text-gray-600 font-semibold py-2;
+}
+.fourth-div-card-line-four{
+  @apply text-sm text-gray-500 font-semibold;
+}
+.fourth-div-card-line-five{
+  @apply text-sm text-gray-500 py-10;
+}
+.fourth-div-reg-btn{
+  @apply rounded-3xl text-white bg-blue-600 px-4 py-1 font-bold font-nunito w-48 text-center cursor-pointer;
+}
+.fourth-div-reg-con{
+  @apply rounded-xl shadow-xl p-4 w-11/12 md:w-1/2 md:flex justify-around bg-white;
+}
+.fourth-div-reg-text{
+  @apply text-gray-500 pt-2 md:pt-0 text-center;
+}
+.fourth-div-rec-con{
+  @apply p-10;
+}
+.fourth-div-icon-con{
+  @apply flex justify-center;
+}
+.fourth-div-icon{
+  @apply text-gray-500 text-3xl font-extrabold;
+}
+.fourth-div-rec-text{
+  @apply text-gray-500 text-sm md:text-base;
 }
