@@ -109,3 +109,12 @@ body {
 .sixth-div-mini-text{
   @apply text-gray-500 text-center font-nunito;
 }
+.seventh-div-os-con{
+  @apply flex justify-between items-center w-36 mb-5;
+}
+.seventh-div-icon{
+  @apply text-4xl text-gray-500;
+}
+.seventh-div-sys{
+  @apply text-gray-500 font-semibold text-sm;
+}

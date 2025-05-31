@@ -254,6 +254,52 @@
                 </div>
             </div>
         </div>
+        
+        {{--seventh div--}}
+        <div style="background-image: url('{{ asset('img/mt4-demo-screen.jpg') }}');" class="bg-cover">
+            <div class="general-div-container backdrop-blur-xl flex justify-between items-center">
+                <div class="flex justify-center">
+                    <div class=" divide-y divide-gray-500">
+                        <div class="md:flex items-center gap-4">
+                            <div class="seventh-div-os-con">
+                                <div>
+                                    <span class="icon-[ion--logo-google-playstore] seventh-div-icon"></span>
+                                </div>
+                                <div>
+                                    <div class="text-gray-500">Available for</div>
+                                    <div class="seventh-div-sys">Android</div>
+                                </div>
+                            </div>
+                            <div class="seventh-div-os-con">
+                                <div>
+                                    <span class="icon-[uil--apple] seventh-div-icon"></span>
+                                </div>
+                                <div>
+                                    <div class="text-gray-500">Available for</div>
+                                    <div class="seventh-div-sys">IOS</div>
+                                </div>
+                            </div>
+                            <div class="seventh-div-os-con">
+                                <div>
+                                    <span class="icon-[uil--windows] seventh-div-icon"></span>
+                                </div>
+                                <div>
+                                    <div class="text-gray-500">Available for</div>
+                                    <div class="seventh-div-sys">Windows</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-2xl md:text-4xl text-gray-500 font-bold py-4">Trade From Any Device</div>
+                    </div>
+                </div>
+                <div>
+                    <img src="{{ asset('img/mt4-demo-screen.jpg')}}" alt="">
+                </div>
+            </div>
+        </div>
+
+        {{--eight div--}}
+        <div></div>
     </div>
 </body>
 </html>
