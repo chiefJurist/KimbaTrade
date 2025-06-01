@@ -151,3 +151,25 @@ body {
 .tenth-div-sponsor-img{
   @apply w-44;
 }
+.eleventh-div-icon-con{
+  @apply flex justify-center;
+}
+.eleventh-div-icon{
+  @apply text-6xl text-black;
+}
+.eleventh-div-mini-header{
+  @apply text-2xl font-bold text-center my-4 font-nunito text-black;
+}
+.eleventh-div-mini-text{
+  @apply text-gray-400 text-center font-nunito;
+}
+.twelfth-div-par{
+  @apply py-2;
+}
+.twelfth-div-link-heading{
+  @apply font-bold text-white text-base;
+}
+.twelfth-div-link{
+  @apply hover:text-white;
+}
+.twelfth-div-link-con{}

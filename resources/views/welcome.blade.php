@@ -415,7 +415,7 @@
                 </div>
             </div>
         </div>
-        <div class="p-6 border-b border-gray-500 md: md:flex justify-between items-center">
+        <div class="p-6 border-b border-gray-500 md: md:flex justify-between items-center bg-white">
             <div class="text-gray-400 font-semibold">As seen on</div>
             <div class="flex justify-between items-center gap-2 md:gap-6 basis-11/12 md:flex-wrap">
                 <span class="tenth-div-sponsor-span">
@@ -437,28 +437,89 @@
         </div>
 
         {{--eleventh div--}}
-        <div>
-            <div>Trade With Confidence</div>
-            <div>
-                <div>
-                    <div><span class="icon-[uil--user-plus]"></span></div>
-                    <div>Register</div>
-                    <div>Fill in your personal details in our secure online application.</div>
+        <div class="general-div-container">
+            <div class="text-3xl md:text-4xl font-bold text-center py-5">Trade With Confidence</div>
+            <div class="divide-y divide-gray-400 md:divide-y-0 md:divide-x md:grid grid-cols-3 mt-6">
+                <div class="p-6">
+                    <div class="eleventh-div-icon-con">
+                        <span class="icon-[uil--user-plus] eleventh-div-icon"></span>
+                    </div>
+                    <div class="eleventh-div-mini-header">Register</div>
+                    <div class="eleventh-div-mini-text">
+                        Fill in your personal details in our secure online application.
+                    </div>
                 </div>
-                <div>
-                    <div><span class="icon-[ion--wallet-outline]"></span></div>
-                    <div>Deposit</div>
-                    <div>Make a deposit via debit card, wire transfer or crypto.</div>
+                <div class="p-6">
+                    <div class="eleventh-div-icon-con">
+                        <span class="icon-[ion--wallet-outline] eleventh-div-icon"></span>
+                    </div>
+                    <div class="eleventh-div-mini-header">Deposit</div>
+                    <div class="eleventh-div-mini-text">
+                        Make a deposit via debit card, wire transfer or crypto.
+                    </div>
                 </div>
-                <div>
-                    <div><span class="icon-[ion--stats-chart-sharp]"></span></div>
-                    <div>Trading</div>
-                    <div>Once your approved, you can trade on desktop and mobile.</div>
+                <div class="p-6">
+                    <div class="eleventh-div-icon-con">
+                        <span class="icon-[ion--stats-chart-outline] eleventh-div-icon"></span>
+                    </div>
+                    <div class="eleventh-div-mini-header">Trading</div>
+                    <div class="eleventh-div-mini-text">Once your approved, you can trade on desktop and mobile.</div>
                 </div>
             </div>
-            <div>
-                <div>Connect with over 450,000 investors in the world’s leading FX Broker</div>
-                <div>open Account</div>
+            <div class="border border-gray-400 mt-10 p-8 rounded-lg md:flex justify-between items-center relative bg-white">
+                <div class="absolute -top-2 left-5 bg-gray-300 rounded-full w-40 text-center text-sm font-bold">OPEN YOUR ACCOUNT</div>
+                <div class="text-gray-500 pb-8 md:pb-0 font-nunito">Connect with over 450,000 investors in the world’s leading FX Broker</div>
+                <div class="p-2 w-44 bg-blue-600 text-white font-bold font-nunito text-center rounded-md">Open Account</div>
+            </div>
+        </div>
+
+        {{--twelfth div --}}
+        <div class="general-div-container bg-gray-900 text-gray-400 font-nunito text-sm">
+            <div class="grid grid-cols-2 md:grid-cols-5 gap-5 py-10 border-b border-gray-300">
+                <div>
+                    <div class="twelfth-div-link-heading">MARKETS</div>
+                    <div><a href="" class="twelfth-div-link">Forex</a></div>
+                    <div><a href="" class="twelfth-div-link">Crypto</a></div>
+                    <div><a href="" class="twelfth-div-link">Shares</a></div>
+                    <div><a href="" class="twelfth-div-link">Indices</a></div>
+                </div>
+                <div>
+                    <div class="twelfth-div-link-heading">TRADING</div>
+                    <div><a href="" class="twelfth-div-link">Platform</a></div>
+                    <div><a href="" class="twelfth-div-link">Pricing</a></div>
+                    <div><a href="" class="twelfth-div-link">Copytrading</a></div>
+                    <div><a href="" class="twelfth-div-link">Help Centre/FAQ</a></div>
+                </div>
+                <div>
+                    <div class="twelfth-div-link-heading">COMPANY</div>
+                    <div><a href="" class="twelfth-div-link">About Us</a></div>
+                    <div><a href="" class="twelfth-div-link">Why Us</a></div>
+                    <div><a href="" class="twelfth-div-link">Contact Us</a></div>
+                </div>
+                <div>
+                    <div class="twelfth-div-link-heading">ACCOUNT</div>
+                    <div><a href="" class="twelfth-div-link">Login</a></div>
+                    <div><a href="" class="twelfth-div-link">SignUp</a></div>
+                </div>
+                <div>
+                    <div class="twelfth-div-link-heading">LEGAL</div>
+                    <div><a href="" class="twelfth-div-link">Privacy Policy</a></div>
+                    <div><a href="" class="twelfth-div-link">Terms of Service</a></div>
+                </div>
+            </div>
+            <div class="mt-10">
+                <div class="twelfth-div-par">
+                    This website can be accessed worldwide however the information on the website is related to Fundflextrades A/S and is not specific to any entity of Fundflextrades. All clients will directly engage with Fundflextrades A/S and all client agreements will be entered into with Fundflextrades A/S .
+
+                </div>
+                <div class="twelfth-div-par">
+                    Forex and CFDs are leveraged products and can result in losses that exceed your deposits. Please ensure you fully understand all of the risks. Contracts for Difference ("CFDs") are leveraged products and carry a significant risk of loss to your capital, as prices may move rapidly against you and you may be required to make further payments to keep any trades open. These products are not suitable for all clients, therefore please ensure you fully understand the risks and seek independent advice.
+
+                </div>
+                <div class="twelfth-div-par">
+                    Apple and the Apple logo are trademarks of Apple Inc, registered in the US and other countries and regions. App Store is a service mark of Apple Inc. Google Play and the Google Play logo are trademarks of Google LLC.
+                </div>
+                <div class="twelfth-div-par">Copyright © 2022 All rights reserved</div>
             </div>
         </div>
     </div>
