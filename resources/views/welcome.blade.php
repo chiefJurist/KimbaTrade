@@ -256,8 +256,8 @@
         </div>
         
         {{--seventh div--}}
-        <div style="background-image: url('{{ asset('img/mt4-demo-screen.jpg') }}');" class="bg-cover">
-            <div class="general-div-container backdrop-blur-xl flex justify-between items-center">
+        <div style="background-image: url('{{ asset('img/in-wave-mockup-5.png') }}');" class="bg-cover">
+            <div class="general-div-container backdrop-blur-xl md:flex justify-between items-center">
                 <div class="flex justify-center">
                     <div class=" divide-y divide-gray-500">
                         <div class="md:flex items-center gap-4">
@@ -293,13 +293,174 @@
                     </div>
                 </div>
                 <div>
-                    <img src="{{ asset('img/mt4-demo-screen.jpg')}}" alt="">
+                    <img src="{{ asset('img/in-wave-mockup-5.png')}}" alt="">
                 </div>
             </div>
         </div>
 
         {{--eight div--}}
-        <div></div>
+        <div class="relative w-full h-screen overflow-hidden -mt-11">
+            <img src="{{ asset('img/crypto-solar-system.png')}}" alt="" class="absolute w-full h-full object-cover">
+
+            <!-- Optional overlay content -->
+            <div class="general-div-container absolute top-0 left-0 w-full h-full  text-white z-10">
+                <div class="my-16 font-light text-center">
+                    ____________ DEPOSIT WITH CRYPTO ___________
+                </div>
+                <div class="text-3xl md:text-5xl font-bold text-center">We accept crypto deposits</div>
+                <div class="font-bold text-center font-nunito py-10">Deposit, withdraw and hold your balance in Bitcoin, Ethereum</div>
+                <div class="flex justify-center">
+                    <div class="bg-blue-600 p-3 rounded-lg w-32 cursor-pointer font-bold font-nunito text-center">Get Started</div>
+                </div>
+            </div>
+            
+            <!-- Optional dark overlay -->
+            <div class="absolute top-0 left-0 w-full h-full bg-black opacity-90 z-0"></div>
+        </div>
+
+        {{--ninth div--}}
+        <div class="bg-white md:flex justify-between items-center gap-5 flex-row-reverse general-div-container">
+            <div class="basis-1/2">
+                <img src="{{asset('img/mt4-demo-screen.jpg')}}" alt="" class="">
+            </div>
+            <div class=" basis-1/2">
+                <div class="flex md:block justify-center">
+                    <img src="{{ asset('img/mt5-logo.png')}}" alt="">
+                </div>
+                <div class="text-3xl md:text-4xl font-bold text-center md:text-start py-3">Free Demo and Live MT4 Accounts</div>
+                <div class="text-gray-500 text-center md:text-start py-5">
+                    Instant market access and endless possibilities for trading, analysis and automation. Metaquotes 5 is an evolution of MT4 with additional features that supercharge your trading.
+                </div>
+                <div class="flex justify-center md:block">
+                    <div class="w-48 p-3 border border-blue-600 rounded-lg text-center text-blue-600 cursor-pointer">Open an Account</div>
+                </div>
+            </div>
+        </div>
+
+        {{--tenth div--}}
+        <div class="general-div-container">
+            <div class="tenth-div-header">We Are Trusted</div>
+            <div class="tenth-div-card-con">
+                <div class="tenth-div-card">
+                    <img src="{{asset('img/ico-rating.png')}}" alt="">
+                    <div class="tenth-div-card-rate-con">
+                        <div class="tenth-div-card-rate">8.9</div>
+                    </div>
+                </div>
+                <div class="tenth-div-card">
+                    <img src="{{asset('img/coin-clarity.png')}}" alt="">
+                    <div class="tenth-div-card-rate-con">
+                        <div class="tenth-div-card-rate">7.9</div>
+                    </div>
+                </div>
+                <div class="tenth-div-card">
+                    <img src="{{asset('img/ico-watchlist.png')}}" alt="">
+                    <div class="tenth-div-card-rate-con">
+                        <div class="tenth-div-card-rate">8.0</div>
+                    </div>
+                </div>
+                <div class="tenth-div-card">
+                    <img src="{{asset('img/coin-market-alert.png')}}" alt="">
+                    <div class="tenth-div-card-rate-con">
+                        <div class="tenth-div-card-rate">9.0</div>
+                    </div>
+                </div>
+                <div class="tenth-div-card">
+                    <img src="{{asset('img/ico-alert.png')}}" alt="">
+                    <div class="tenth-div-card-rate-con">
+                        <div class="tenth-div-card-rate">7.4</div>
+                    </div>
+                </div>
+                <div class="tenth-div-card">
+                    <img src="{{asset('img/token-market.png')}}" alt="">
+                    <div class="tenth-div-card-rate-con">
+                        <div class="tenth-div-card-rate">8.7</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="background-image: url('{{ asset('img/pexels-street.png') }}')" class="bg-cover bg-center min-h-screen">
+            <div class="general-div-container  text-white backdrop-blur-xs">
+                <div class=" bg-white rounded-lg p-4 md:p-10">
+                    <div class="border-b border-gray-600">
+                        <div class="text-2xl md:text-4xl font-bold text-gray-900 py-8">Trusted For More Than 7 Years</div>
+                        <div class="text-gray-400 font-nunito text-sm md:text-base">
+                            Fundflextrades is an online Forex and cryptocurrency STP broker providing CFD trading on hundreds of assets and optimal trading conditions within the award-winning MT4 platform. Fundflextrades offers deep liquidity, generous leverage up to 1:500, and some of the best spreads in the industry. As part of our commitment to our client’s satisfaction, we offer 24/7 live customer service, charge no deposit or withdrawal fees, and process withdrawals within 30-minutes or less. We feel that these, along with many other advantages, help to set us apart from the rest.
+                        </div>
+                        <div class="text-gray-700 text-2xl font-nunito py-8">Multi-award winner</div>
+                    </div>
+                    <div class="py-8 md:flex justify-around">
+                        <div class="tenth-div-award-con">
+                            <div><img src="{{asset('img/in-wave-award.svg')}}" alt=""></div>
+                            <div class="basis-9/12">
+                                <div class="tenth-div-award-head">Best CFD Broker</div>
+                                <div class="tenth-div-award-text">TradeON Summit 2020</div>
+                            </div>
+                        </div>
+                        <div class="tenth-div-award-con">
+                            <div><img src="{{asset('img/in-wave-award.svg')}}" alt=""></div>
+                            <div class="basis-9/12">
+                                <div class="tenth-div-award-head">Best Trading Experience</div>
+                                <div class="tenth-div-award-text">Jordan Forex EXPO 2015</div>
+                            </div>
+                        </div>
+                        <div class="tenth-div-award-con">
+                            <div><img src="{{asset('img/in-wave-award.svg')}}" alt=""></div>
+                            <div class="basis-9/12">
+                                <div class="tenth-div-award-head">Best Execution Broker</div>
+                                <div class="tenth-div-award-text">Forex EXPO Dubai 2017</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="p-6 border-b border-gray-500 md: md:flex justify-between items-center">
+            <div class="text-gray-400 font-semibold">As seen on</div>
+            <div class="flex justify-between items-center gap-2 md:gap-6 basis-11/12 md:flex-wrap">
+                <span class="tenth-div-sponsor-span">
+                    <img src="{{asset('img/cnbc.svg')}}" alt="" class="tenth-div-sponsor-img">
+                </span>
+                <span class="tenth-div-sponsor-span">
+                    <img src="{{asset('img/the-guardian.svg')}}" alt="" class="tenth-div-sponsor-img">
+                </span>
+                <span class="tenth-div-sponsor-span">
+                    <img src="{{asset('img/bloomberg.svg')}}" alt="" class="tenth-div-sponsor-img">
+                </span>
+                <span class="tenth-div-sponsor-span">
+                    <img src="{{asset('img/reuters.svg')}}" alt="" class="tenth-div-sponsor-img">
+                </span>
+                <span class="tenth-div-sponsor-span">
+                    <img src="{{asset('img/market-watch.svg')}}" alt="" class="tenth-div-sponsor-img">
+                </span>
+            </div>
+        </div>
+
+        {{--eleventh div--}}
+        <div>
+            <div>Trade With Confidence</div>
+            <div>
+                <div>
+                    <div><span class="icon-[uil--user-plus]"></span></div>
+                    <div>Register</div>
+                    <div>Fill in your personal details in our secure online application.</div>
+                </div>
+                <div>
+                    <div><span class="icon-[ion--wallet-outline]"></span></div>
+                    <div>Deposit</div>
+                    <div>Make a deposit via debit card, wire transfer or crypto.</div>
+                </div>
+                <div>
+                    <div><span class="icon-[ion--stats-chart-sharp]"></span></div>
+                    <div>Trading</div>
+                    <div>Once your approved, you can trade on desktop and mobile.</div>
+                </div>
+            </div>
+            <div>
+                <div>Connect with over 450,000 investors in the world’s leading FX Broker</div>
+                <div>open Account</div>
+            </div>
+        </div>
     </div>
 </body>
 </html>
