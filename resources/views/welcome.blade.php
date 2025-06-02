@@ -7,6 +7,7 @@
     @vite('resources/css/app.css')
 </head>
 <script>
+    //For Showing the small nav
     document.addEventListener("DOMContentLoaded", function () {
         const openBtn = document.getElementById("openMenu");
         const closeBtn = document.getElementById("closeMenu");
@@ -18,6 +19,16 @@
 
         closeBtn.addEventListener("click", () => {
             mobileNav.classList.add("hidden");
+        });
+    });
+
+    //For showing the sublinks of the small nav
+     document.addEventListener('DOMContentLoaded', () => {
+        document.querySelectorAll('.toggle-header').forEach(header => {
+            header.addEventListener('click', () => {
+                const content = header.nextElementSibling;
+                content.classList.toggle('hidden');
+            });
         });
     });
 </script>
@@ -47,12 +58,46 @@
         </div>
 
         {{-- navigation for bigger screens --}}
-        <div class="hidden md:flex px-20 py-3 flex-wrap gap-8 font-semibold text-sm">
-            <div>HOME</div>
-            <div>ABOUT US</div>
-            <div>MARKETS</div>
-            <div>TRADING</div>
-            <div>COMPANY</div>
+        <div class="big-nav-gen-con">
+            <div class="big-nav-link-con">
+                <a href="">HOME</a>
+            </div>
+            <div class="big-nav-link-con">
+                <a href="">ABOUT US</a>
+            </div>
+            <div class="big-nav-link-con">
+                <select>
+                    <option value=""><a href="">MARKET</a></option>
+                    <option value=""><a href=""></a></option>
+                    <option value=""><a href=""></a></option>
+                    <option value=""><a href=""></a></option>
+                    <option value=""><a href=""></a></option>
+                    <option value=""><a href=""></a></option>
+                    <option value=""><a href=""></a></option>
+                </select>
+            </div>
+            <div class="big-nav-link-con">
+                <select>
+                    <option value=""><a href="">TRADING</a></option>
+                    <option value=""><a href=""></a></option>
+                    <option value=""><a href=""></a></option>
+                    <option value=""><a href=""></a></option>
+                    <option value=""><a href=""></a></option>
+                    <option value=""><a href=""></a></option>
+                    <option value=""><a href=""></a></option>
+                </select>
+            </div>
+            <div class="big-nav-link-con">
+                <select>
+                    <option value=""><a href="">COMPANY</a></option>
+                    <option value=""><a href=""></a></option>
+                    <option value=""><a href=""></a></option>
+                    <option value=""><a href=""></a></option>
+                    <option value=""><a href=""></a></option>
+                    <option value=""><a href=""></a></option>
+                    <option value=""><a href=""></a></option>
+                </select>
+            </div>
         </div>
 
         {{-- navigation for smaller screens --}}
@@ -62,11 +107,34 @@
                     <span class="icon-[material-symbols--cancel-outline-rounded] external-icon"></span>
                 </div>
                 <div>
-                    <div class="small-nav-link">Home</div>
-                    <div class="small-nav-link">About Us</div>
-                    <div class="small-nav-link">Markets</div>
-                    <div class="small-nav-link">Trading</div>
-                    <div class="small-nav-link">Company</div>
+                    <div class="small-nav-link">
+                        <a href="">Home</a>
+                    </div>
+                    <div class="small-nav-link">
+                        <a href="">About Us</a>
+                    </div>
+                    <div class="small-nav-link toggle-header">Markets</div>
+                    <div class="toggle-content hidden">
+                        <div class="small-nav-sublink"><a href="">Forex</a></div>
+                        <div class="small-nav-sublink"><a href="">Cryptos</a></div>
+                        <div class="small-nav-sublink"><a href="">Shares</a></div>
+                        <div class="small-nav-sublink"><a href="">Indices</a></div>
+                        <div class="small-nav-sublink"><a href="">Marijuana</a></div>
+                        <div class="small-nav-sublink"><a href="">Energies</a></div>
+                    </div>
+                    <div class="small-nav-link toggle-header">Trading</div>
+                    <div class="toggle-content hidden">
+                        <div class="small-nav-sublink"><a href="">Platform</a></div>
+                        <div class="small-nav-sublink"><a href="">Swaps</a></div>
+                        <div class="small-nav-sublink"><a href="">Spreads and Commisions</a></div>
+                        <div class="small-nav-sublink"><a href="">Trading Specifications</a></div>
+                        <div class="small-nav-sublink"><a href="">Copy Trading</a></div>
+                    </div>
+                    <div class="small-nav-link toggle-header">Company</div>
+                    <div class="toggle-content hidden">
+                        <div class="small-nav-sublink"><a href="">Why us</a></div>
+                        <div class="small-nav-sublink"><a href="">Contact us</a></div>
+                    </div>
                 </div>
                 <div>
                     <div class="btn mt-4">Log In</div>
