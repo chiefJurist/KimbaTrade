@@ -65,38 +65,33 @@
             <div class="big-nav-link-con">
                 <a href="">ABOUT US</a>
             </div>
-            <div class="big-nav-link-con">
-                <select>
-                    <option value=""><a href="">MARKET</a></option>
-                    <option value=""><a href=""></a></option>
-                    <option value=""><a href=""></a></option>
-                    <option value=""><a href=""></a></option>
-                    <option value=""><a href=""></a></option>
-                    <option value=""><a href=""></a></option>
-                    <option value=""><a href=""></a></option>
-                </select>
+            <div class="big-nav-link-con relative group">
+                <div class="big-nav-sublink-heading">MARKET</div>
+                <div class="big-nav-sublink-con hidden group-hover:block">
+                    <a href=""><div class="big-nav-sublink">Forex</div></a>
+                    <a href=""><div class="big-nav-sublink">Cryptos</div></a>
+                    <a href=""><div class="big-nav-sublink">Shares</div></a>
+                    <a href=""><div class="big-nav-sublink">Indices</div></a>
+                    <a href=""><div class="big-nav-sublink">Marijuana</div></a>
+                    <a href=""><div class="big-nav-sublink">Energies</div></a>
+                </div>
             </div>
-            <div class="big-nav-link-con">
-                <select>
-                    <option value=""><a href="">TRADING</a></option>
-                    <option value=""><a href=""></a></option>
-                    <option value=""><a href=""></a></option>
-                    <option value=""><a href=""></a></option>
-                    <option value=""><a href=""></a></option>
-                    <option value=""><a href=""></a></option>
-                    <option value=""><a href=""></a></option>
-                </select>
+            <div class="big-nav-link-con relative group">
+                <div class="big-nav-sublink-heading">TRADING</div>
+                <div class="big-nav-sublink-con hidden group-hover:block">
+                    <a href=""><div class="big-nav-sublink">Platform</div></a>
+                    <a href=""><div class="big-nav-sublink">Swaps</div></a>
+                    <a href=""><div class="big-nav-sublink">Spread and Commissions</div></a>
+                    <a href=""><div class="big-nav-sublink">Trading Specifications</div></a>
+                    <a href=""><div class="big-nav-sublink">Copytrading</div></a>
+                </div>
             </div>
-            <div class="big-nav-link-con">
-                <select>
-                    <option value=""><a href="">COMPANY</a></option>
-                    <option value=""><a href=""></a></option>
-                    <option value=""><a href=""></a></option>
-                    <option value=""><a href=""></a></option>
-                    <option value=""><a href=""></a></option>
-                    <option value=""><a href=""></a></option>
-                    <option value=""><a href=""></a></option>
-                </select>
+            <div class="big-nav-link-con group relative">
+                <div class="big-nav-sublink-heading">COMPANY</div>
+                <div class="big-nav-sublink-con hidden group-hover:block">
+                    <a href=""><div class="big-nav-sublink">Why Us</div></a>
+                    <a href=""><div class="big-nav-sublink">Contact Us</div></a>
+                </div>
             </div>
         </div>
 

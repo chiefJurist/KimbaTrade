@@ -32,7 +32,13 @@ body {
   @apply hidden md:flex px-20 flex-wrap gap-8 font-semibold text-sm;
 }
 .big-nav-link-con{
-  @apply hover:border-b-4 border-blue-600 py-3;
+  @apply cursor-pointer py-3;
+}
+.big-nav-sublink{
+  @apply py-3 px-5 hover:bg-gray-300 hover:text-black;
+}
+.big-nav-sublink-con{
+  @apply z-20 bg-white absolute top-11 left-0 text-gray-600 min-w-max;
 }
 .external-icon{
   @apply text-3xl font-bold text-white;
