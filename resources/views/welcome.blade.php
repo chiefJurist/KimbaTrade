@@ -100,7 +100,7 @@
         </div>
 
         {{-- navigation for smaller screens --}}
-        <div id="mobileNav" class="small-screen-nav-backdrop z-40 transform translate-x-full transition-transform duration-300 ease-in-out">
+        <div id="mobileNav" class="small-screen-nav-backdrop z-40 transform translate-x-full transition-transform duration-400 ease-out">
             <div  id="sideNav" class="small-screen-nav-con">
                 <div id="closeMenu" class="flex justify-end pt-5 pb-20">
                     <span class="icon-[material-symbols--cancel-outline-rounded] external-icon"></span>
