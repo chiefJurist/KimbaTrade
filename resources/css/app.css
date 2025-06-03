@@ -19,6 +19,9 @@ layer(base);
 body {
   @apply bg-gray-100 text-gray-900 font-sans;
 }
+.button{
+  @apply cursor-pointer transition duration-400 ease-out;
+}
 .welcome-header{
   @apply py-3 bg-gray-900 justify-between items-center
 }
@@ -32,7 +35,10 @@ body {
   @apply hidden md:flex px-20 flex-wrap gap-8 font-semibold text-sm;
 }
 .big-nav-link-con{
-  @apply cursor-pointer py-3;
+  @apply p-3 hover:bg-gray-200;
+}
+.big-nav-transition{
+  @apply opacity-0 -translate-y-3 invisible absolute group-hover:opacity-100 group-hover:translate-y-0 group-hover:visible transition-all duration-400 ease-in-out;
 }
 .big-nav-sublink{
   @apply py-3 px-5 hover:bg-gray-300 hover:text-black;
@@ -71,7 +77,7 @@ body {
   @apply md:flex justify-between items-center;
 }
 .short-white-btn{
-  @apply py-3 border border-blue-600 rounded-md font-bold text-blue-600 w-36 text-center cursor-pointer font-nunito;
+  @apply py-3 border border-blue-600 rounded-md font-bold text-blue-600 w-36 text-center cursor-pointer font-nunito hover:bg-blue-600 hover:text-gray-100;
 }
 .fourth-div-card-container{
   @apply bg-gray-200 rounded-lg p-8 min-h-96 mt-8 md:my-0;
@@ -92,7 +98,7 @@ body {
   @apply text-sm text-gray-500 py-10;
 }
 .fourth-div-reg-btn{
-  @apply rounded-3xl text-white bg-blue-600 px-4 py-1 font-bold font-nunito w-48 text-center cursor-pointer;
+  @apply rounded-3xl text-white bg-blue-600 px-4 py-1 font-bold font-nunito w-48 text-center cursor-pointer hover:scale-x-105 ease-in-out;
 }
 .fourth-div-reg-con{
   @apply rounded-xl shadow-xl p-4 w-11/12 md:w-1/2 md:flex justify-around bg-white;
@@ -132,6 +138,12 @@ body {
 }
 .seventh-div-sys{
   @apply text-gray-500 font-semibold text-sm;
+}
+.eight-div-btn{
+  @apply bg-blue-600 hover:bg-gray-900 p-3 rounded-lg w-32 font-bold font-nunito text-center;
+}
+.ninth-div-btn{
+  @apply w-48 p-3 border border-blue-600 rounded-lg text-center text-blue-600 font-bold hover:bg-gray-900;
 }
 .tenth-div-header{
   @apply text-3xl md:text-4xl font-bold text-center;
@@ -177,6 +189,9 @@ body {
 }
 .eleventh-div-mini-text{
   @apply text-gray-400 text-center font-nunito;
+}
+.eleventh-div-btn{
+  @apply p-2 w-44 bg-blue-600 text-white font-bold font-nunito text-center rounded-md hover:bg-gray-900;
 }
 .twelfth-div-par{
   @apply py-2;

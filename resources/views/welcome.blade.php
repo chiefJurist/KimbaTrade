@@ -9,18 +9,22 @@
 <script>
     //For Showing the small nav
     document.addEventListener("DOMContentLoaded", function () {
-        const openBtn = document.getElementById("openMenu");
-        const closeBtn = document.getElementById("closeMenu");
-        const mobileNav = document.getElementById("mobileNav");
+    const openBtn = document.getElementById("openMenu");
+    const closeBtn = document.getElementById("closeMenu");
+    const mobileNav = document.getElementById("mobileNav");
 
-        openBtn.addEventListener("click", () => {
-            mobileNav.classList.remove("hidden");
-        });
-
-        closeBtn.addEventListener("click", () => {
-            mobileNav.classList.add("hidden");
-        });
+    openBtn.addEventListener("click", () => {
+        // Show and slide in
+        mobileNav.classList.remove("translate-x-full");
+        mobileNav.classList.add("translate-x-0");
     });
+
+    closeBtn.addEventListener("click", () => {
+        // Slide out to the right
+        mobileNav.classList.remove("translate-x-0");
+        mobileNav.classList.add("translate-x-full");
+    });
+});
 
     //For showing the sublinks of the small nav
      document.addEventListener('DOMContentLoaded', () => {
@@ -41,8 +45,8 @@
                 <span>Kimba Trade</span>
             </div>
             <div class="flex justify-between items-center gap-6 flex-wrap">
-                <div class="btn">Log In</div>
-                <div class="btn bg-blue-600">Sign up</div>
+                <div class="btn hover:bg-blue-600 button">Login</div>
+                <div class="btn bg-blue-600 hover:bg-gray-900 button">Sign up</div>
             </div>
         </div>
 
@@ -59,15 +63,15 @@
 
         {{-- navigation for bigger screens --}}
         <div class="big-nav-gen-con">
-            <div class="big-nav-link-con">
+            <div class="big-nav-link-con button">
                 <a href="">HOME</a>
             </div>
-            <div class="big-nav-link-con">
+            <div class="big-nav-link-con button">
                 <a href="">ABOUT US</a>
             </div>
-            <div class="big-nav-link-con relative group">
+            <div class="big-nav-link-con button relative group">
                 <div class="big-nav-sublink-heading">MARKET</div>
-                <div class="big-nav-sublink-con hidden group-hover:block">
+                <div class="big-nav-sublink-con big-nav-transition">
                     <a href=""><div class="big-nav-sublink">Forex</div></a>
                     <a href=""><div class="big-nav-sublink">Cryptos</div></a>
                     <a href=""><div class="big-nav-sublink">Shares</div></a>
@@ -76,9 +80,9 @@
                     <a href=""><div class="big-nav-sublink">Energies</div></a>
                 </div>
             </div>
-            <div class="big-nav-link-con relative group">
+            <div class="big-nav-link-con button relative group">
                 <div class="big-nav-sublink-heading">TRADING</div>
-                <div class="big-nav-sublink-con hidden group-hover:block">
+                <div class="big-nav-sublink-con big-nav-transition">
                     <a href=""><div class="big-nav-sublink">Platform</div></a>
                     <a href=""><div class="big-nav-sublink">Swaps</div></a>
                     <a href=""><div class="big-nav-sublink">Spread and Commissions</div></a>
@@ -86,9 +90,9 @@
                     <a href=""><div class="big-nav-sublink">Copytrading</div></a>
                 </div>
             </div>
-            <div class="big-nav-link-con group relative">
+            <div class="big-nav-link-con button group relative">
                 <div class="big-nav-sublink-heading">COMPANY</div>
-                <div class="big-nav-sublink-con hidden group-hover:block">
+                <div class="big-nav-sublink-con big-nav-transition">
                     <a href=""><div class="big-nav-sublink">Why Us</div></a>
                     <a href=""><div class="big-nav-sublink">Contact Us</div></a>
                 </div>
@@ -96,9 +100,9 @@
         </div>
 
         {{-- navigation for smaller screens --}}
-        <div id="mobileNav" class="hidden small-screen-nav-backdrop z-40">
-            <div class="small-screen-nav-con">
-                <div id="closeMenu" class="flex justify-end pb-32">
+        <div id="mobileNav" class="small-screen-nav-backdrop z-40 transform translate-x-full transition-transform duration-300 ease-in-out">
+            <div  id="sideNav" class="small-screen-nav-con">
+                <div id="closeMenu" class="flex justify-end pt-5 pb-20">
                     <span class="icon-[material-symbols--cancel-outline-rounded] external-icon"></span>
                 </div>
                 <div>
@@ -152,7 +156,7 @@
                 <div class="div-texts">
                     Access 40,000+ instruments – across asset classes – to trade, hedge and invest from a single account.
                 </div>
-                <div class="btn bg-blue-600 mt-8">Open an Account</div>
+                <div class="btn bg-blue-600 mt-8 hover:bg-gray-900 button">Open an Account</div>
             </div>
 
             <!-- Optional dark overlay -->
@@ -167,7 +171,7 @@
                 <div class="div-texts text-gray-500">
                     With Fundflextrades you get a transparent pricing structure and a secure and regulated trading environment. As an active trader you can also qualify for lower fees and extra benefits.
                 </div>
-                <div class="mt-6 md:mt-12 short-white-btn">Login</div>
+                <div class="mt-6 md:mt-12 short-white-btn button">Login</div>
             </div>
             <div class=" pt-10 md:pt-0">
                 <img src="{{ asset('img/frontpage-pricing-d.webp')}}" alt="" class="w-xl md:w-5xl">
@@ -226,7 +230,7 @@
             <div class="flex justify-center my-5">
                 <div class="fourth-div-reg-con">
                     <div class="flex justify-center">
-                        <div class="fourth-div-reg-btn">Start Trade</div>
+                        <div class="fourth-div-reg-btn button">Start Trade</div>
                     </div>
                     <div class="fourth-div-reg-text">With the little you have you Trend. Join now!</div>
                 </div>
@@ -373,7 +377,7 @@
                 <div class="text-3xl md:text-5xl font-bold text-center">We accept crypto deposits</div>
                 <div class="font-bold text-center font-nunito py-10">Deposit, withdraw and hold your balance in Bitcoin, Ethereum</div>
                 <div class="flex justify-center">
-                    <div class="bg-blue-600 p-3 rounded-lg w-32 cursor-pointer font-bold font-nunito text-center">Get Started</div>
+                    <div class="eight-div-btn button">Get Started</div>
                 </div>
             </div>
             
@@ -395,7 +399,7 @@
                     Instant market access and endless possibilities for trading, analysis and automation. Metaquotes 5 is an evolution of MT4 with additional features that supercharge your trading.
                 </div>
                 <div class="flex justify-center md:block">
-                    <div class="w-48 p-3 border border-blue-600 rounded-lg text-center text-blue-600 cursor-pointer">Open an Account</div>
+                    <div class="ninth-div-btn button">Open an Account</div>
                 </div>
             </div>
         </div>
@@ -532,7 +536,7 @@
             <div class="border border-gray-400 mt-10 p-8 rounded-lg md:flex justify-between items-center relative bg-white">
                 <div class="absolute -top-2 left-5 bg-gray-300 rounded-full w-40 text-center text-sm font-bold">OPEN YOUR ACCOUNT</div>
                 <div class="text-gray-500 pb-8 md:pb-0 font-nunito">Connect with over 450,000 investors in the world’s leading FX Broker</div>
-                <div class="p-2 w-44 bg-blue-600 text-white font-bold font-nunito text-center rounded-md">Open Account</div>
+                <div class="eleventh-div-btn button">Open Account</div>
             </div>
         </div>
 
