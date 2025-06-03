@@ -1,0 +1,198 @@
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="{{ asset('img/kimba_trades.png') }}" type="image/png">
+        <title>Kimba Trade</title>
+        @vite('resources/css/app.css')
+    </head>
+    <script>
+        //For Showing the small nav
+        document.addEventListener("DOMContentLoaded", function () {
+        const openBtn = document.getElementById("openMenu");
+        const closeBtn = document.getElementById("closeMenu");
+        const mobileNav = document.getElementById("mobileNav");
+
+        openBtn.addEventListener("click", () => {
+            // Show and slide in
+            mobileNav.classList.remove("translate-x-full");
+            mobileNav.classList.add("translate-x-0");
+        });
+
+        closeBtn.addEventListener("click", () => {
+            // Slide out to the right
+            mobileNav.classList.remove("translate-x-0");
+            mobileNav.classList.add("translate-x-full");
+        });
+    });
+
+        //For showing the sublinks of the small nav
+        document.addEventListener('DOMContentLoaded', () => {
+            document.querySelectorAll('.toggle-header').forEach(header => {
+                header.addEventListener('click', () => {
+                    const content = header.nextElementSibling;
+                    content.classList.toggle('hidden');
+                });
+            });
+        });
+    </script>
+    <body>
+        <div>
+            {{-- Header For Screens Greater Than md --}}
+            <div class="hidden md:flex px-20 welcome-header">
+                <div class="logo-container">
+                    <img src="{{ asset('img/kimba_trade.png')}}" alt="Kimba Logo" class=" w-16">
+                    <span>Kimba Trade</span>
+                </div>
+                <div class="flex justify-between items-center gap-6 flex-wrap">
+                    <div class="btn hover:bg-blue-600 button">Login</div>
+                    <div class="btn bg-blue-600 hover:bg-gray-900 button">Sign up</div>
+                </div>
+            </div>
+
+            {{-- Header For Screens Less Than md: --}}
+            <div class="md:hidden flex px-6 welcome-header">
+                <div class="logo-container">
+                    <img src="{{ asset('img/kimba_trade.png')}}" alt="Kimba Logo" class=" w-16">
+                    <span>KimbaTrade</span>
+                </div>
+                <div id="openMenu">
+                    <span class="icon-[material-symbols--menu-rounded] external-icon"></span>
+                </div>
+            </div>
+
+            {{-- navigation for bigger screens --}}
+            <div class="big-nav-gen-con">
+                <div class="big-nav-link-con button">
+                    <a href="">HOME</a>
+                </div>
+                <div class="big-nav-link-con button">
+                    <a href="">ABOUT US</a>
+                </div>
+                <div class="big-nav-link-con button relative group">
+                    <div class="big-nav-sublink-heading">MARKET</div>
+                    <div class="big-nav-sublink-con big-nav-transition">
+                        <a href=""><div class="big-nav-sublink">Forex</div></a>
+                        <a href=""><div class="big-nav-sublink">Cryptos</div></a>
+                        <a href=""><div class="big-nav-sublink">Shares</div></a>
+                        <a href=""><div class="big-nav-sublink">Indices</div></a>
+                        <a href=""><div class="big-nav-sublink">Marijuana</div></a>
+                        <a href=""><div class="big-nav-sublink">Energies</div></a>
+                    </div>
+                </div>
+                <div class="big-nav-link-con button relative group">
+                    <div class="big-nav-sublink-heading">TRADING</div>
+                    <div class="big-nav-sublink-con big-nav-transition">
+                        <a href=""><div class="big-nav-sublink">Platform</div></a>
+                        <a href=""><div class="big-nav-sublink">Swaps</div></a>
+                        <a href=""><div class="big-nav-sublink">Spread and Commissions</div></a>
+                        <a href=""><div class="big-nav-sublink">Trading Specifications</div></a>
+                        <a href=""><div class="big-nav-sublink">Copytrading</div></a>
+                    </div>
+                </div>
+                <div class="big-nav-link-con button group relative">
+                    <div class="big-nav-sublink-heading">COMPANY</div>
+                    <div class="big-nav-sublink-con big-nav-transition">
+                        <a href=""><div class="big-nav-sublink">Why Us</div></a>
+                        <a href=""><div class="big-nav-sublink">Contact Us</div></a>
+                    </div>
+                </div>
+            </div>
+
+            {{-- navigation for smaller screens --}}
+            <div id="mobileNav" class="small-screen-nav-backdrop z-40 transform translate-x-full transition-transform duration-400 ease-out">
+                <div  id="sideNav" class="small-screen-nav-con">
+                    <div id="closeMenu" class="flex justify-end pt-5 pb-20">
+                        <span class="icon-[material-symbols--cancel-outline-rounded] external-icon"></span>
+                    </div>
+                    <div>
+                        <div class="small-nav-link">
+                            <a href="">Home</a>
+                        </div>
+                        <div class="small-nav-link">
+                            <a href="">About Us</a>
+                        </div>
+                        <div class="small-nav-link toggle-header">Markets</div>
+                        <div class="toggle-content hidden">
+                            <div class="small-nav-sublink"><a href="">Forex</a></div>
+                            <div class="small-nav-sublink"><a href="">Cryptos</a></div>
+                            <div class="small-nav-sublink"><a href="">Shares</a></div>
+                            <div class="small-nav-sublink"><a href="">Indices</a></div>
+                            <div class="small-nav-sublink"><a href="">Marijuana</a></div>
+                            <div class="small-nav-sublink"><a href="">Energies</a></div>
+                        </div>
+                        <div class="small-nav-link toggle-header">Trading</div>
+                        <div class="toggle-content hidden">
+                            <div class="small-nav-sublink"><a href="">Platform</a></div>
+                            <div class="small-nav-sublink"><a href="">Swaps</a></div>
+                            <div class="small-nav-sublink"><a href="">Spreads and Commisions</a></div>
+                            <div class="small-nav-sublink"><a href="">Trading Specifications</a></div>
+                            <div class="small-nav-sublink"><a href="">Copy Trading</a></div>
+                        </div>
+                        <div class="small-nav-link toggle-header">Company</div>
+                        <div class="toggle-content hidden">
+                            <div class="small-nav-sublink"><a href="">Why us</a></div>
+                            <div class="small-nav-sublink"><a href="">Contact us</a></div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="btn mt-4">Log In</div>
+                        <div class="btn bg-blue-600 mt-4">Sign up</div>
+                    </div>
+                </div>
+            </div>
+            <main>
+                {{ $slot }}
+            </main>
+            {{--twelfth div --}}
+            <div class="general-div-container bg-gray-900 text-gray-400 font-nunito text-sm">
+                <div class="grid grid-cols-2 md:grid-cols-5 gap-5 py-10 border-b border-gray-300">
+                    <div>
+                        <div class="twelfth-div-link-heading">MARKETS</div>
+                        <div><a href="" class="twelfth-div-link">Forex</a></div>
+                        <div><a href="" class="twelfth-div-link">Crypto</a></div>
+                        <div><a href="" class="twelfth-div-link">Shares</a></div>
+                        <div><a href="" class="twelfth-div-link">Indices</a></div>
+                    </div>
+                    <div>
+                        <div class="twelfth-div-link-heading">TRADING</div>
+                        <div><a href="" class="twelfth-div-link">Platform</a></div>
+                        <div><a href="" class="twelfth-div-link">Pricing</a></div>
+                        <div><a href="" class="twelfth-div-link">Copytrading</a></div>
+                        <div><a href="" class="twelfth-div-link">Help Centre/FAQ</a></div>
+                    </div>
+                    <div>
+                        <div class="twelfth-div-link-heading">COMPANY</div>
+                        <div><a href="" class="twelfth-div-link">About Us</a></div>
+                        <div><a href="" class="twelfth-div-link">Why Us</a></div>
+                        <div><a href="" class="twelfth-div-link">Contact Us</a></div>
+                    </div>
+                    <div>
+                        <div class="twelfth-div-link-heading">ACCOUNT</div>
+                        <div><a href="" class="twelfth-div-link">Login</a></div>
+                        <div><a href="" class="twelfth-div-link">SignUp</a></div>
+                    </div>
+                    <div>
+                        <div class="twelfth-div-link-heading">LEGAL</div>
+                        <div><a href="" class="twelfth-div-link">Privacy Policy</a></div>
+                        <div><a href="" class="twelfth-div-link">Terms of Service</a></div>
+                    </div>
+                </div>
+                <div class="mt-10">
+                    <div class="twelfth-div-par">
+                        This website can be accessed worldwide however the information on the website is related to Fundflextrades A/S and is not specific to any entity of Fundflextrades. All clients will directly engage with Fundflextrades A/S and all client agreements will be entered into with Fundflextrades A/S .
+
+                    </div>
+                    <div class="twelfth-div-par">
+                        Forex and CFDs are leveraged products and can result in losses that exceed your deposits. Please ensure you fully understand all of the risks. Contracts for Difference ("CFDs") are leveraged products and carry a significant risk of loss to your capital, as prices may move rapidly against you and you may be required to make further payments to keep any trades open. These products are not suitable for all clients, therefore please ensure you fully understand the risks and seek independent advice.
+
+                    </div>
+                    <div class="twelfth-div-par">
+                        Apple and the Apple logo are trademarks of Apple Inc, registered in the US and other countries and regions. App Store is a service mark of Apple Inc. Google Play and the Google Play logo are trademarks of Google LLC.
+                    </div>
+                    <div class="twelfth-div-par">Copyright © 2022 All rights reserved</div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
