@@ -67,7 +67,7 @@
                     <a href="">HOME</a>
                 </div>
                 <div class="big-nav-link-con button">
-                    <a href="">ABOUT US</a>
+                    <a href="{{ route('about')}}">ABOUT US</a>
                 </div>
                 <div class="big-nav-link-con button relative group">
                     <div class="big-nav-sublink-heading">MARKET</div>
@@ -110,7 +110,7 @@
                             <a href="">Home</a>
                         </div>
                         <div class="small-nav-link">
-                            <a href="">About Us</a>
+                            <a href="{{ route('about')}}">About Us</a>
                         </div>
                         <div class="small-nav-link toggle-header">Markets</div>
                         <div class="toggle-content hidden">
@@ -163,7 +163,7 @@
                     </div>
                     <div>
                         <div class="twelfth-div-link-heading">COMPANY</div>
-                        <div><a href="" class="twelfth-div-link">About Us</a></div>
+                        <div><a href="{{ route('about')}}" class="twelfth-div-link">About Us</a></div>
                         <div><a href="" class="twelfth-div-link">Why Us</a></div>
                         <div><a href="" class="twelfth-div-link">Contact Us</a></div>
                     </div>
