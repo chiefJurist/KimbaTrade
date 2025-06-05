@@ -37,7 +37,7 @@
     <div class="general-div-container about-first-div-container">
         <div class="md:pr-36">
             <div class="div-headings">
-                Our company
+                Our Company
             </div>
             <div class="div-texts text-gray-500">
                 With almost 20 years of experience, Fundflextrades is one of the largest stock exchange-listed FX & CFD brokers in the world. We have offices in over 13 countries including UK, Poland, Germany, France and Chile.

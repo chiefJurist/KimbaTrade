@@ -72,7 +72,7 @@
                 <div class="big-nav-link-con button relative group">
                     <div class="big-nav-sublink-heading">MARKET</div>
                     <div class="big-nav-sublink-con big-nav-transition">
-                        <a href=""><div class="big-nav-sublink">Forex</div></a>
+                        <a href="{{ route('forex')}}"><div class="big-nav-sublink">Forex</div></a>
                         <a href=""><div class="big-nav-sublink">Cryptos</div></a>
                         <a href=""><div class="big-nav-sublink">Shares</div></a>
                         <a href=""><div class="big-nav-sublink">Indices</div></a>
@@ -114,7 +114,7 @@
                         </div>
                         <div class="small-nav-link toggle-header">Markets</div>
                         <div class="toggle-content hidden">
-                            <div class="small-nav-sublink"><a href="">Forex</a></div>
+                            <div class="small-nav-sublink"><a href="{{ route('forex')}}">Forex</a></div>
                             <div class="small-nav-sublink"><a href="">Cryptos</a></div>
                             <div class="small-nav-sublink"><a href="">Shares</a></div>
                             <div class="small-nav-sublink"><a href="">Indices</a></div>
@@ -149,7 +149,7 @@
                 <div class="grid grid-cols-2 md:grid-cols-5 gap-5 py-10 border-b border-gray-300">
                     <div>
                         <div class="twelfth-div-link-heading">MARKETS</div>
-                        <div><a href="" class="twelfth-div-link">Forex</a></div>
+                        <div><a href="{{ route('forex')}}" class="twelfth-div-link">Forex</a></div>
                         <div><a href="" class="twelfth-div-link">Crypto</a></div>
                         <div><a href="" class="twelfth-div-link">Shares</a></div>
                         <div><a href="" class="twelfth-div-link">Indices</a></div>
