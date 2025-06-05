@@ -64,7 +64,7 @@
             {{-- navigation for bigger screens --}}
             <div class="big-nav-gen-con">
                 <div class="big-nav-link-con button">
-                    <a href="">HOME</a>
+                    <a href="/">HOME</a>
                 </div>
                 <div class="big-nav-link-con button">
                     <a href="{{ route('about')}}">ABOUT US</a>
@@ -107,7 +107,7 @@
                     </div>
                     <div>
                         <div class="small-nav-link">
-                            <a href="">Home</a>
+                            <a href="/">Home</a>
                         </div>
                         <div class="small-nav-link">
                             <a href="{{ route('about')}}">About Us</a>
