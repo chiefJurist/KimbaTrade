@@ -255,7 +255,7 @@ body {
   @apply font-nunito py-3 text-lg;
 }
 .forex-fourth-div-card{
-  @apply pb-10 md:pb-0;
+  @apply pb-10 md:pb-0 basis-1/2;
 }
 .forex-fourth-div-card-heading{
   @apply text-xl font-nunito py-4;

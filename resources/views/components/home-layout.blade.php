@@ -72,7 +72,7 @@
                 <div class="big-nav-link-con button relative group">
                     <div class="big-nav-sublink-heading">MARKET</div>
                     <div class="big-nav-sublink-con big-nav-transition">
-                        <a href="{{ route('hompages.forex')}}"><div class="big-nav-sublink">Forex</div></a>
+                        <a href="{{ route('homepages.forex')}}"><div class="big-nav-sublink">Forex</div></a>
                         <a href="{{ route('homepages.cryptos')}}"><div class="big-nav-sublink">Cryptos</div></a>
                         <a href=""><div class="big-nav-sublink">Shares</div></a>
                         <a href=""><div class="big-nav-sublink">Indices</div></a>
@@ -163,7 +163,7 @@
                     </div>
                     <div>
                         <div class="twelfth-div-link-heading">COMPANY</div>
-                        <div><a href="{{ route('about')}}" class="twelfth-div-link">About Us</a></div>
+                        <div><a href="{{ route('homepages.about')}}" class="twelfth-div-link">About Us</a></div>
                         <div><a href="" class="twelfth-div-link">Why Us</a></div>
                         <div><a href="" class="twelfth-div-link">Contact Us</a></div>
                     </div>
