@@ -9,6 +9,7 @@ Route::get('/', function () {
 
 
 Route::middleware('guest')->controller(HomepagesController::class)->group(function(){
-    Route::get('/about', 'about')->name('about');
-    Route::get('/forex', 'forex')->name('forex');
+    Route::get('/about', 'about')->name('homepages.about');
+    Route::get('/forex', 'forex')->name('homepages.forex');
+    Route::get('/cryptos', 'cryptos')->name('homepages.cryptos');
 });

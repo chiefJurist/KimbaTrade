@@ -15,4 +15,9 @@ class HomepagesController extends Controller
     public function forex()  {
         return view('homepages.forex');
     }
+
+    //crypto action
+    public function cryptos()  {
+        return view('homepages.cryptos');
+    }
 }
