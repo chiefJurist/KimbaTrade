@@ -263,3 +263,23 @@ body {
 .forex-fourth-div-card-body{
   @apply font-nunito;
 }
+
+
+.crypto-fifth-div-heading{
+  @apply text-center text-3xl md:text-4xl text-black py-5 font-nunito;
+}
+.crypto-fifth-div-card{
+  @apply py-6;
+}
+.crypto-fifth-div-card-icon-div{
+  @apply w-16 h-16 rounded-full bg-blue-500 flex justify-center items-center text-white text-xl mx-auto;
+}
+.crypto-fifth-div-card-text{
+  @apply text-gray-700 font-nunito pt-3 text-center;
+}
+.cryto-fifth-div-last-texts{
+  @apply text-gray-500 py-3 text-center font-nunito;
+}
+.crypto-last-div-btn{
+  @apply mt-6 md:mt-12 py-3  rounded-full font-bold text-white bg-blue-600 w-44 text-center font-nunito hover:bg-gray-900;
+}

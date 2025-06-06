@@ -82,6 +82,54 @@
             </div>
         </div>
     </div>
+
+    {{-- fifth div --}}
+    <div class="general-div-container">
+        <div class="crypto-fifth-div-heading">
+            Fundflextradess. Invest in a Broker.
+        </div>
+        <div class="text-center text-lg md:text-2xl font-nunito py-4">
+            Join the UTFTX Pool in 4 steps to receive daily payments
+        </div>
+        <div class="flex justify-center items-center md:block my-10">
+            <div class="py-5 md:flex justify-between items-center">
+                <div class="crypto-fifth-div-card">
+                    <div class="crypto-fifth-div-card-icon-div"><span class="icon-[fa-solid--flag]"></span></div>
+                    <div class="crypto-fifth-div-card-text">Create an Account</div>
+                </div>
+                <div class="crypto-fifth-div-card">
+                    <div class="crypto-fifth-div-card-icon-div"><span class="icon-[vaadin--money-deposit]"></span></div>
+                    <div class="crypto-fifth-div-card-text">Deposit Funds</div>
+                </div>
+                <div class="crypto-fifth-div-card">
+                    <div class="crypto-fifth-div-card-icon-div"><span class="icon-[fa-solid--lock]"></span></div>
+                    <div class="crypto-fifth-div-card-text">Invest Your Funds In a Plan</div>
+                </div>
+                <div class="crypto-fifth-div-card">
+                    <div class="crypto-fifth-div-card-icon-div"><span class="icon-[simple-line-icons--social-skype]"></span></div>
+                    <div class="crypto-fifth-div-card-text">Earn Daily Interest</div>
+                </div>
+            </div>
+        </div>
+        <div class="crypto-fifth-div-heading">
+            Create An Account
+        </div>
+        <div class="cryto-fifth-div-last-texts">
+            To start please register a new account with Fundflextradess.com and complete all the necessary steps to verify your account.
+        </div>
+        <div class="cryto-fifth-div-last-texts">
+            Sign up for an account
+        </div>
+        <div class="cryto-fifth-div-last-texts">
+            Verify your email
+        </div>
+        <div class="cryto-fifth-div-last-texts">
+            Start trading
+        </div>
+        <div class="crypto-last-div-btn button mx-auto">
+            Get Started
+        </div>
+    </div>
 </x-home-layout>
 
 

@@ -7,6 +7,7 @@
         "dev": "vite"
     },
     "devDependencies": {
+        "@iconify-json/fa-solid": "^1.2.1",
         "@iconify-json/hugeicons": "^1.2.5",
         "@iconify-json/ion": "^1.2.3",
         "@iconify-json/material-symbols": "^1.2.22",
