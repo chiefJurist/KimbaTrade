@@ -14,4 +14,5 @@ Route::middleware('guest')->controller(HomepagesController::class)->group(functi
     Route::get('/cryptos', 'cryptos')->name('homepages.cryptos');
     Route::get('/shares', 'shares')->name('homepages.shares');
     Route::get('/indices', 'indices')->name('homepages.indices');
+    Route::get('/marijuana', 'marijuana')->name('homepages.marijuana');
 });

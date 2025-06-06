@@ -30,4 +30,9 @@ class HomepagesController extends Controller
     public function indices()  {
         return view('homepages.indices');
     }
+
+    //marijuana action
+    public function marijuana()  {
+        return view('homepages.marijuana');
+    }
 }
