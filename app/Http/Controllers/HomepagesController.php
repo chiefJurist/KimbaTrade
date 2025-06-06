@@ -20,4 +20,9 @@ class HomepagesController extends Controller
     public function cryptos()  {
         return view('homepages.cryptos');
     }
+
+    //shares action
+    public function shares()  {
+        return view('homepages.shares');
+    }
 }

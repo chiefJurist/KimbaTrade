@@ -12,4 +12,5 @@ Route::middleware('guest')->controller(HomepagesController::class)->group(functi
     Route::get('/about', 'about')->name('homepages.about');
     Route::get('/forex', 'forex')->name('homepages.forex');
     Route::get('/cryptos', 'cryptos')->name('homepages.cryptos');
+    Route::get('/shares', 'shares')->name('homepages.shares');
 });

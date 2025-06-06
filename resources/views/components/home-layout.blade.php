@@ -74,7 +74,7 @@
                     <div class="big-nav-sublink-con big-nav-transition">
                         <a href="{{ route('homepages.forex')}}"><div class="big-nav-sublink">Forex</div></a>
                         <a href="{{ route('homepages.cryptos')}}"><div class="big-nav-sublink">Cryptos</div></a>
-                        <a href=""><div class="big-nav-sublink">Shares</div></a>
+                        <a href="{{ route('homepages.shares')}}"><div class="big-nav-sublink">Shares</div></a>
                         <a href=""><div class="big-nav-sublink">Indices</div></a>
                         <a href=""><div class="big-nav-sublink">Marijuana</div></a>
                         <a href=""><div class="big-nav-sublink">Energies</div></a>
@@ -116,7 +116,7 @@
                         <div class="toggle-content hidden">
                             <div class="small-nav-sublink"><a href="{{ route('homepages.forex')}}">Forex</a></div>
                             <div class="small-nav-sublink"><a href="{{ route('homepages.cryptos')}}">Cryptos</a></div>
-                            <div class="small-nav-sublink"><a href="">Shares</a></div>
+                            <div class="small-nav-sublink"><a href="{{ route('homepages.shares')}}">Shares</a></div>
                             <div class="small-nav-sublink"><a href="">Indices</a></div>
                             <div class="small-nav-sublink"><a href="">Marijuana</a></div>
                             <div class="small-nav-sublink"><a href="">Energies</a></div>
@@ -151,7 +151,7 @@
                         <div class="twelfth-div-link-heading">MARKETS</div>
                         <div><a href="{{ route('homepages.forex')}}" class="twelfth-div-link">Forex</a></div>
                         <div><a href="{{ route('homepages.cryptos')}}" class="twelfth-div-link">Crypto</a></div>
-                        <div><a href="" class="twelfth-div-link">Shares</a></div>
+                        <div><a href="{{ route('homepages.shares')}}" class="twelfth-div-link">Shares</a></div>
                         <div><a href="" class="twelfth-div-link">Indices</a></div>
                     </div>
                     <div>
