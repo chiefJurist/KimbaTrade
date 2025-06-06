@@ -65,7 +65,7 @@
         <div class="text-center py-14 text-blue-500 text-4xl md:text-7xl">
             Stocks from major companies around the world
         </div>
-        <div class="py-10 md:flex justify-between items-center gap-10">
+        <div class="py-10 md:flex justify-between items-start gap-10">
             <div class="forex-fourth-div-card">
                 <div class="forex-fourth-div-card-heading">Advantages of Stock CFDs</div>
                 <div class="forex-fourth-div-card-body">

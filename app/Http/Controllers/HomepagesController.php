@@ -25,4 +25,9 @@ class HomepagesController extends Controller
     public function shares()  {
         return view('homepages.shares');
     }
+
+    //indices action
+    public function indices()  {
+        return view('homepages.indices');
+    }
 }

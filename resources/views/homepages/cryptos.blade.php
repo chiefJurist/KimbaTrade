@@ -63,7 +63,7 @@
             Trading CFDs on cryptos lets you buy and sell Bitcoin, Ethereum and other popular digital currencies without owning them.
         </div>
         <div class="text-center py-14 text-blue-500 text-7xl">A 24/7 liquid market</div>
-        <div class="py-10 md:flex justify-between items-center gap-10">
+        <div class="py-10 md:flex justify-between items-start gap-10">
             <div class="forex-fourth-div-card">
                 <div class="forex-fourth-div-card-heading">What are cryptocurrencies?</div>
                 <div class="forex-fourth-div-card-body">
