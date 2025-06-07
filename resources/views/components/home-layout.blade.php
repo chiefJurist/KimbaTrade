@@ -77,7 +77,7 @@
                         <a href="{{ route('homepages.shares')}}"><div class="big-nav-sublink">Shares</div></a>
                         <a href="{{ route('homepages.indices')}}"><div class="big-nav-sublink">Indices</div></a>
                         <a href="{{ route('homepages.marijuana')}}"><div class="big-nav-sublink">Marijuana</div></a>
-                        <a href=""><div class="big-nav-sublink">Energies</div></a>
+                        <a href="{{ route('homepages.energies')}}"><div class="big-nav-sublink">Energies</div></a>
                     </div>
                 </div>
                 <div class="big-nav-link-con button relative group">
@@ -119,7 +119,7 @@
                             <div class="small-nav-sublink"><a href="{{ route('homepages.shares')}}">Shares</a></div>
                             <div class="small-nav-sublink"><a href="{{ route('homepages.indices')}}">Indices</a></div>
                             <div class="small-nav-sublink"><a href="{{ route('homepages.marijuana')}}">Marijuana</a></div>
-                            <div class="small-nav-sublink"><a href="">Energies</a></div>
+                            <div class="small-nav-sublink"><a href="{{ route('homepages.energies')}}">Energies</a></div>
                         </div>
                         <div class="small-nav-link toggle-header">Trading</div>
                         <div class="toggle-content hidden">

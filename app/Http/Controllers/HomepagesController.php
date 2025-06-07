@@ -35,4 +35,9 @@ class HomepagesController extends Controller
     public function marijuana()  {
         return view('homepages.marijuana');
     }
+
+    //energies action
+    public function energies()  {
+        return view('homepages.energies');
+    }
 }
