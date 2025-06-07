@@ -289,5 +289,35 @@ body {
   @apply bg-cover bg-center;
 }
 .marijuana-first-div-text{
-  @apply px-6 md:px-20 py-20 min-h-60  text-white backdrop-blur-xs text-5xl text-center font-bold;
+  @apply px-6 md:px-20 py-20 min-h-60  text-white backdrop-brightness-25 text-5xl text-center font-bold;
+}
+
+
+
+.platforms-first-div-con{
+  @apply bg-cover bg-center;
+}
+.platforms-first-div-text{
+  @apply px-6 md:px-20 pt-20 pb-52 md:pb-60 min-h-60  text-white backdrop-brightness-25 text-5xl text-center font-bold;
+}
+.platform-third-div-card{
+  @apply py-6;
+}
+.platform-third-div-card-icon-con{
+  @apply text-gray-700 bg-white text-7xl text-center mx-auto;
+}
+.platform-third-div-card-text{
+  @apply text-black font-nunito pt-2 text-center font-bold text-lg;
+}
+.platform-fourth-div-card{
+  @apply py-5 md:py-0;
+}
+.platform-fourth-div-card-icon-con{
+  @apply text-center text-blue-500 text-5xl;
+}
+.platform-fourth-div-card-header{
+  @apply text-center text-xl font-bold py-4;
+}
+.platform-fourth-div-card-text{
+  @apply text-center font-nunito text-lg;
 }

@@ -40,4 +40,9 @@ class HomepagesController extends Controller
     public function energies()  {
         return view('homepages.energies');
     }
+
+    //platform action
+    public function platform()  {
+        return view('homepages.platform');
+    }
 }
