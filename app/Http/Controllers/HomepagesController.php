@@ -45,4 +45,9 @@ class HomepagesController extends Controller
     public function platform()  {
         return view('homepages.platform');
     }
+
+    //swaps action
+    public function swaps()  {
+        return view('homepages.swaps');
+    }
 }

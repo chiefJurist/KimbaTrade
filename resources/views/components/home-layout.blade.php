@@ -84,7 +84,7 @@
                     <div class="big-nav-sublink-heading">TRADING</div>
                     <div class="big-nav-sublink-con big-nav-transition">
                         <a href="{{ route('homepages.platform') }}"><div class="big-nav-sublink">Platform</div></a>
-                        <a href=""><div class="big-nav-sublink">Swaps</div></a>
+                        <a href="{{ route('homepages.swaps')}}"><div class="big-nav-sublink">Swaps</div></a>
                         <a href=""><div class="big-nav-sublink">Spread and Commissions</div></a>
                         <a href=""><div class="big-nav-sublink">Trading Specifications</div></a>
                         <a href=""><div class="big-nav-sublink">Copytrading</div></a>
@@ -124,7 +124,7 @@
                         <div class="small-nav-link toggle-header">Trading</div>
                         <div class="toggle-content hidden">
                             <div class="small-nav-sublink"><a href="{{ route('homepages.platform') }}">Platform</a></div>
-                            <div class="small-nav-sublink"><a href="">Swaps</a></div>
+                            <div class="small-nav-sublink"><a href="{{ route('homepages.swaps')}}">Swaps</a></div>
                             <div class="small-nav-sublink"><a href="">Spreads and Commisions</a></div>
                             <div class="small-nav-sublink"><a href="">Trading Specifications</a></div>
                             <div class="small-nav-sublink"><a href="">Copy Trading</a></div>
