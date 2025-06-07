@@ -321,3 +321,8 @@ body {
 .platform-fourth-div-card-text{
   @apply text-center font-nunito text-lg;
 }
+
+
+.swaps-text-divs{
+  @apply text-gray-500 font-nunito py-3;
+}
