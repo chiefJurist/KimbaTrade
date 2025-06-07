@@ -283,3 +283,11 @@ body {
 .crypto-last-div-btn{
   @apply mt-6 md:mt-12 py-3  rounded-full font-bold text-white bg-blue-600 w-44 text-center font-nunito hover:bg-gray-900;
 }
+
+
+.marijuana-first-div-con{
+  @apply bg-cover bg-center;
+}
+.marijuana-first-div-text{
+  @apply px-6 md:px-20 py-20 min-h-60  text-white backdrop-blur-xs text-5xl text-center font-bold;
+}
