@@ -20,4 +20,5 @@ Route::middleware('guest')->controller(HomepagesController::class)->group(functi
     Route::get('/swaps', 'swaps')->name('homepages.swaps');
     Route::get('/copy-trading', 'copyTrading')->name('homepages.copy-trading');
     Route::get('/trading-specifications', 'tradingSpecifications')->name('homepages.trading-specifications');
+    Route::get('/why-us', 'whyUs')->name('homepages.why-us');
 });

@@ -103,8 +103,12 @@
                 <div class="big-nav-link-con button group relative">
                     <div class="big-nav-sublink-heading">COMPANY</div>
                     <div class="big-nav-sublink-con big-nav-transition">
-                        <a href=""><div class="big-nav-sublink">Why Us</div></a>
-                        <a href=""><div class="big-nav-sublink">Contact Us</div></a>
+                        <a href="{{ route('homepages.why-us')}}">
+                            <div class="big-nav-sublink">Why Us</div>
+                        </a>
+                        <a href="">
+                            <div class="big-nav-sublink">Contact Us</div>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -163,8 +167,12 @@
                         </div>
                         <div class="small-nav-link toggle-header">Company</div>
                         <div class="toggle-content hidden">
-                            <div class="small-nav-sublink"><a href="">Why us</a></div>
-                            <div class="small-nav-sublink"><a href="">Contact us</a></div>
+                            <div class="small-nav-sublink">
+                                <a href="{{ route('homepages.why-us')}}">Why us</a>
+                            </div>
+                            <div class="small-nav-sublink">
+                                <a href="">Contact us</a>
+                            </div>
                         </div>
                     </div>
                     <div>
