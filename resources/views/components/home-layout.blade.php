@@ -83,11 +83,21 @@
                 <div class="big-nav-link-con button relative group">
                     <div class="big-nav-sublink-heading">TRADING</div>
                     <div class="big-nav-sublink-con big-nav-transition">
-                        <a href="{{ route('homepages.platform') }}"><div class="big-nav-sublink">Platform</div></a>
-                        <a href="{{ route('homepages.swaps')}}"><div class="big-nav-sublink">Swaps</div></a>
-                        <a href=""><div class="big-nav-sublink">Spread and Commissions</div></a>
-                        <a href=""><div class="big-nav-sublink">Trading Specifications</div></a>
-                        <a href="{{ route('homepages.copy-trading')}}"><div class="big-nav-sublink">Copytrading</div></a>
+                        <a href="{{ route('homepages.platform') }}">
+                            <div class="big-nav-sublink">Platform</div>
+                        </a>
+                        <a href="{{ route('homepages.swaps')}}">
+                            <div class="big-nav-sublink">Swaps</div>
+                        </a>
+                        <a href="">
+                            <div class="big-nav-sublink">Spread and Commissions</div>
+                        </a>
+                        <a href="{{ route(name: 'homepages.trading-specifications')}}">
+                            <div class="big-nav-sublink">Trading Specifications</div>
+                        </a>
+                        <a href="{{ route('homepages.copy-trading')}}">
+                            <div class="big-nav-sublink">Copytrading</div>
+                        </a>
                     </div>
                 </div>
                 <div class="big-nav-link-con button group relative">
@@ -114,20 +124,42 @@
                         </div>
                         <div class="small-nav-link toggle-header">Markets</div>
                         <div class="toggle-content hidden">
-                            <div class="small-nav-sublink"><a href="{{ route('homepages.forex')}}">Forex</a></div>
-                            <div class="small-nav-sublink"><a href="{{ route('homepages.cryptos')}}">Cryptos</a></div>
-                            <div class="small-nav-sublink"><a href="{{ route('homepages.shares')}}">Shares</a></div>
-                            <div class="small-nav-sublink"><a href="{{ route('homepages.indices')}}">Indices</a></div>
-                            <div class="small-nav-sublink"><a href="{{ route('homepages.marijuana')}}">Marijuana</a></div>
-                            <div class="small-nav-sublink"><a href="{{ route('homepages.energies')}}">Energies</a></div>
+                            <div class="small-nav-sublink">
+                                <a href="{{ route('homepages.forex')}}">Forex</a>
+                            </div>
+                            <div class="small-nav-sublink">
+                                <a href="{{ route('homepages.cryptos')}}">Cryptos</a>
+                            </div>
+                            <div class="small-nav-sublink">
+                                <a href="{{ route('homepages.shares')}}">Shares</a>
+                            </div>
+                            <div class="small-nav-sublink">
+                                <a href="{{ route('homepages.indices')}}">Indices</a>
+                            </div>
+                            <div class="small-nav-sublink">
+                                <a href="{{ route('homepages.marijuana')}}">Marijuana</a>
+                            </div>
+                            <div class="small-nav-sublink">
+                                <a href="{{ route('homepages.energies')}}">Energies</a>
+                            </div>
                         </div>
                         <div class="small-nav-link toggle-header">Trading</div>
                         <div class="toggle-content hidden">
-                            <div class="small-nav-sublink"><a href="{{ route('homepages.platform') }}">Platform</a></div>
-                            <div class="small-nav-sublink"><a href="{{ route('homepages.swaps')}}">Swaps</a></div>
-                            <div class="small-nav-sublink"><a href="">Spreads and Commisions</a></div>
-                            <div class="small-nav-sublink"><a href="">Trading Specifications</a></div>
-                            <div class="small-nav-sublink"><a href="{{ route('homepages.copy-trading')}}">Copy Trading</a></div>
+                            <div class="small-nav-sublink">
+                                <a href="{{ route('homepages.platform') }}">Platform</a>
+                            </div>
+                            <div class="small-nav-sublink">
+                                <a href="{{ route('homepages.swaps')}}">Swaps</a>
+                            </div>
+                            <div class="small-nav-sublink">
+                                <a href="">Spreads and Commisions</a>
+                            </div>
+                            <div class="small-nav-sublink">
+                                <a href="{{ route('homepages.trading-specifications')}}">Trading Specifications</a>
+                            </div>
+                            <div class="small-nav-sublink">
+                                <a href="{{ route('homepages.copy-trading')}}">Copy Trading</a>
+                            </div>
                         </div>
                         <div class="small-nav-link toggle-header">Company</div>
                         <div class="toggle-content hidden">
@@ -156,16 +188,30 @@
                     </div>
                     <div>
                         <div class="twelfth-div-link-heading">TRADING</div>
-                        <div><a href="{{ route('homepages.platform') }}" class="twelfth-div-link">Platform</a></div>
-                        <div><a href="" class="twelfth-div-link">Pricing</a></div>
-                        <div><a href="" class="twelfth-div-link">Copytrading</a></div>
-                        <div><a href="" class="twelfth-div-link">Help Centre/FAQ</a></div>
+                        <div>
+                            <a href="{{ route('homepages.platform') }}" class="twelfth-div-link">Platform</a>
+                        </div>
+                        <div>
+                            <a href="" class="twelfth-div-link">Pricing</a>
+                        </div>
+                        <div>
+                            <a href="{{ route('homepages.copy-trading')}}" class="twelfth-div-link">Copytrading</a>
+                        </div>
+                        <div>
+                            <a href="" class="twelfth-div-link">Help Centre/FAQ</a>
+                        </div>
                     </div>
                     <div>
                         <div class="twelfth-div-link-heading">COMPANY</div>
-                        <div><a href="{{ route('homepages.about')}}" class="twelfth-div-link">About Us</a></div>
-                        <div><a href="" class="twelfth-div-link">Why Us</a></div>
-                        <div><a href="" class="twelfth-div-link">Contact Us</a></div>
+                        <div>
+                            <a href="{{ route('homepages.about')}}" class="twelfth-div-link">About Us</a>
+                        </div>
+                        <div>
+                            <a href="" class="twelfth-div-link">Why Us</a>
+                        </div>
+                        <div>
+                            <a href="" class="twelfth-div-link">Contact Us</a>
+                        </div>
                     </div>
                     <div>
                         <div class="twelfth-div-link-heading">ACCOUNT</div>

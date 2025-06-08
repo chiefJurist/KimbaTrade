@@ -19,4 +19,5 @@ Route::middleware('guest')->controller(HomepagesController::class)->group(functi
     Route::get('/platform', 'platform')->name('homepages.platform');
     Route::get('/swaps', 'swaps')->name('homepages.swaps');
     Route::get('/copy-trading', 'copyTrading')->name('homepages.copy-trading');
+    Route::get('/trading-specifications', 'tradingSpecifications')->name('homepages.trading-specifications');
 });

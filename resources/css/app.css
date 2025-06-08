@@ -326,3 +326,11 @@ body {
 .swaps-text-divs{
   @apply text-gray-500 font-nunito py-3;
 }
+
+
+th{
+  @apply border border-gray-300 px-4 py-3;
+}
+td{
+  @apply border border-gray-300 px-4 py-3;
+}
