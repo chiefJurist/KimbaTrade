@@ -50,4 +50,9 @@ class HomepagesController extends Controller
     public function swaps()  {
         return view('homepages.swaps');
     }
+
+    //cpoytrading action
+    public function copyTrading()  {
+        return view('homepages.copy-trading');
+    }
 }
