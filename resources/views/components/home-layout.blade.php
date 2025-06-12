@@ -106,7 +106,7 @@
                         <a href="{{ route('homepages.why-us')}}">
                             <div class="big-nav-sublink">Why Us</div>
                         </a>
-                        <a href="">
+                        <a href="{{ route('homepages.contact-us') }}">
                             <div class="big-nav-sublink">Contact Us</div>
                         </a>
                     </div>
@@ -171,7 +171,7 @@
                                 <a href="{{ route('homepages.why-us')}}">Why us</a>
                             </div>
                             <div class="small-nav-sublink">
-                                <a href="">Contact us</a>
+                                <a href="{{ route('homepages.contact-us')}}">Contact us</a>
                             </div>
                         </div>
                     </div>
@@ -215,10 +215,10 @@
                             <a href="{{ route('homepages.about')}}" class="twelfth-div-link">About Us</a>
                         </div>
                         <div>
-                            <a href="" class="twelfth-div-link">Why Us</a>
+                            <a href="{{ route('homepages.why-us')}}" class="twelfth-div-link">Why Us</a>
                         </div>
                         <div>
-                            <a href="" class="twelfth-div-link">Contact Us</a>
+                            <a href="{{ route('homepages.contact-us') }}" class="twelfth-div-link">Contact Us</a>
                         </div>
                     </div>
                     <div>

@@ -65,4 +65,9 @@ class HomepagesController extends Controller
     public function whyUs() {
         return view('homepages.why-us');
     }
+
+    //contact-us action
+    public function contactUs()  {
+        return view('homepages.contact-us');
+    }
 }
