@@ -358,3 +358,15 @@ td{
 .why-us-fourth-div-card-icon-con{
   @apply text-center text-blue-500 text-7xl;
 }
+.why-us-sixth-div-card{
+  @apply bg-gray-900 text-white font-nunito px-10 py-16;
+}
+.why-us-sixth-div-icon-div{
+  @apply text-blue-500 text-7xl text-start;
+}
+.why-us-sixth-div-header{
+  @apply text-2xl py-5 font-bold;
+}
+.why-us-seventh-div-format-btn{
+  @apply text-center w-68 rounded-full p-2.5 font-bold font-nunito;
+}

@@ -106,11 +106,107 @@
     </div>
 
     {{-- sixth div --}}
-    <div>
-        <div>FREEDOM TO TRADE THEGLOBAL MARKETS</div>
-        <div>Every tick of markets around the world at your fingertips.</div>
-        <div>
-            <div></div>
+    <div class="general-div-container">
+        <div class="text-center text-black text-3xl md:text-4xl font-bold max-w-2xl mx-auto py-7">
+            FREEDOM TO TRADE THE GLOBAL MARKETS
+        </div>
+        <div class="text-center text-gray-500 text-xl font-semibold font-nunito py-5">
+            Every tick of markets around the world at your fingertips.
+        </div>
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-10 py-10">
+            <div class="why-us-sixth-div-card">
+                <div class="why-us-sixth-div-icon-div">
+                    <span class="icon-[streamline-sharp--stock]"></span>
+                </div>
+                <div class="why-us-sixth-div-header">
+                    FOREX
+                </div>
+                <div>
+                    Currency majors, minors, crosses and exotics in a $5 trillion markets.
+                </div>
+            </div>
+            <div class="why-us-sixth-div-card">
+                <div class="why-us-sixth-div-icon-div">
+                    <span class="icon-[ph--chart-line-light]"></span>
+                </div>
+                <div class="why-us-sixth-div-header">
+                    INDICES
+                </div>
+                <div>
+                    Global indices from the US, UK, Asia, Australia and Europe.
+                </div>
+            </div>
+            <div class="why-us-sixth-div-card">
+                <div class="why-us-sixth-div-icon-div">
+                    <span class="icon-[ion--stats-chart-outline]"></span>
+                </div>
+                <div class="why-us-sixth-div-header">
+                    SHARES
+                </div>
+                <div>
+                    Currency majors, minors, crosses and exotics in a $5 trillion markets.
+                </div>
+            </div>
+            <div class="why-us-sixth-div-card">
+                <div class="why-us-sixth-div-icon-div">
+                    <span class="icon-[hugeicons--blockchain-04]"></span>
+                </div>
+                <div class="why-us-sixth-div-header">
+                    ENERGIES
+                </div>
+                <div>
+                    Trade oil and gas at a low cost on futures or spot markets.
+                </div>
+            </div>
+            <div class="why-us-sixth-div-card">
+                <div class="why-us-sixth-div-icon-div">
+                    <span class="icon-[hugeicons--blockchain-03]"></span>
+                </div>
+                <div class="why-us-sixth-div-header">
+                    CRYPTOCURRENCIES
+                </div>
+                <div>
+                    Digital currencies on CFDs such as Bitcoin and Ethereum
+                </div>
+            </div>
+            <div class="why-us-sixth-div-card">
+                <div class="why-us-sixth-div-icon-div">
+                    <span class="icon-[hugeicons--sale-tag-02]"></span>
+                </div>
+                <div class="why-us-sixth-div-header">
+                    TRADING COSTS
+                </div>
+                <div>
+                    We have subscriptions to suit every trader, with commissions as low as 0 and spreads from 0 pips.
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    {{-- seventh div --}}
+    <div class="general-div-container bg-white md:flex justify-between gap-10">
+        <div class=" basis-2/3">
+            <div class="flex gap-3 items-center my-5">
+                <div class="why-us-seventh-div-format-btn text-white bg-gray-800">MT5</div>
+                <div class="why-us-seventh-div-format-btn bg-gray-200">MT4</div>
+            </div>
+            <div class="my-5">
+                <img src="{{ asset('img/mt5-logo.png')}}" alt="">
+            </div>
+            <div class="text-3xl md:text-4xl font-bold text-center md:text-start py-3 max-w-xl">
+                THE NEXT-GENERATION PLATFORM FOR FX & CFDS
+            </div>
+            <div class="text-gray-500 text-center md:text-start py-5 max-w-xl">
+                Instant market access and endless possibilities for trading, analysis and automation. Metaquotes 5 is an evolution of MT4 with additional features that supercharge your trading.
+            </div>
+            <div class="flex justify-center md:block">
+                <div class="w-48 p-3 rounded-full text-center font-bold text-white bg-blue-500 hover:bg-white hover:text-blue-500 hover:border border-blue-500 button">
+                    <a href="{{route('homepages.platform')}}">VIEW PLATFORMS</a>
+                </div>
+            </div>
+        </div>
+        <div class="basis-1/3 hidden md:flex">
+            <img src="{{asset('img/why-us-img3.png')}}" alt="" class=" w-3xs">
         </div>
     </div>
 </x-home-layout>
