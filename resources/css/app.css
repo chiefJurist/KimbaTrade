@@ -373,7 +373,7 @@ td{
 
 
 .general-policy-con{
-  @apply px-10 md:px-40 py-12 bg-amber-50;
+  @apply px-10 md:px-40 py-12 bg-white;
 }
 .privacy-pol-sect-con{
   @apply py-7;

@@ -75,4 +75,9 @@ class HomepagesController extends Controller
     public function privacyPolicy() {
         return view('homepages.privacy-policy');
     }
+
+    //terms of service action
+    public function termsOfService() {
+        return view('homepages.terms-of-service');
+    }
 }

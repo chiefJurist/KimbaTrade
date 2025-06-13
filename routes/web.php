@@ -23,4 +23,5 @@ Route::middleware('guest')->controller(HomepagesController::class)->group(functi
     Route::get('/why-us', 'whyUs')->name('homepages.why-us');
     Route::get('contact-us', 'contactUs')->name('homepages.contact-us');
     Route::get('/privacy-policy', 'privacyPolicy')->name('homepages.privacy-policy');
+    Route::get('/terms-of-service', 'termsOfService')->name('hompages.terms-of-service');
 });

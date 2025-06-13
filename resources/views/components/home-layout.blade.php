@@ -70,7 +70,10 @@
                     <a href="{{ route('homepages.about')}}">ABOUT US</a>
                 </div>
                 <div class="big-nav-link-con button relative group">
-                    <div class="big-nav-sublink-heading">MARKET</div>
+                    <div class="big-nav-sublink-heading">
+                        <span>MARKET</span>
+                        <span class="icon-[ion--caret-down] font-extrabold"></span>
+                    </div>
                     <div class="big-nav-sublink-con big-nav-transition">
                         <a href="{{ route('homepages.forex')}}"><div class="big-nav-sublink">Forex</div></a>
                         <a href="{{ route('homepages.cryptos')}}"><div class="big-nav-sublink">Cryptos</div></a>
@@ -81,7 +84,10 @@
                     </div>
                 </div>
                 <div class="big-nav-link-con button relative group">
-                    <div class="big-nav-sublink-heading">TRADING</div>
+                    <div class="big-nav-sublink-heading">
+                        <span>TRADING</span>
+                        <span class="icon-[ion--caret-down] font-extrabold"></span>
+                    </div>
                     <div class="big-nav-sublink-con big-nav-transition">
                         <a href="{{ route('homepages.platform') }}">
                             <div class="big-nav-sublink">Platform</div>
@@ -101,7 +107,10 @@
                     </div>
                 </div>
                 <div class="big-nav-link-con button group relative">
-                    <div class="big-nav-sublink-heading">COMPANY</div>
+                    <div class="big-nav-sublink-heading">
+                        <span>COMPANY</span>
+                        <span class="icon-[ion--caret-down] font-extrabold"></span>
+                    </div>
                     <div class="big-nav-sublink-con big-nav-transition">
                         <a href="{{ route('homepages.why-us')}}">
                             <div class="big-nav-sublink">Why Us</div>
@@ -231,7 +240,7 @@
                         <div>
                             <a href="{{ route('homepages.privacy-policy') }}" class="twelfth-div-link">Privacy Policy</a>
                         </div>
-                        <div><a href="" class="twelfth-div-link">Terms of Service</a></div>
+                        <div><a href="{{ route('hompages.terms-of-service') }}" class="twelfth-div-link">Terms of Service</a></div>
                     </div>
                 </div>
                 <div class="mt-10">
