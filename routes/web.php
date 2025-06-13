@@ -22,4 +22,5 @@ Route::middleware('guest')->controller(HomepagesController::class)->group(functi
     Route::get('/trading-specifications', 'tradingSpecifications')->name('homepages.trading-specifications');
     Route::get('/why-us', 'whyUs')->name('homepages.why-us');
     Route::get('contact-us', 'contactUs')->name('homepages.contact-us');
+    Route::get('/privacy-policy', 'privacyPolicy')->name('homepages.privacy-policy');
 });

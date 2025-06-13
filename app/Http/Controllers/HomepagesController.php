@@ -70,4 +70,9 @@ class HomepagesController extends Controller
     public function contactUs()  {
         return view('homepages.contact-us');
     }
+    
+    //privacy policy action
+    public function privacyPolicy() {
+        return view('homepages.privacy-policy');
+    }
 }

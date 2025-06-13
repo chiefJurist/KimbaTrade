@@ -62,7 +62,7 @@
             </div>
 
             {{-- navigation for bigger screens --}}
-            <div class="big-nav-gen-con">
+            <div class="big-nav-gen-con bg-blue-50 shadow-xl">
                 <div class="big-nav-link-con button">
                     <a href="/">HOME</a>
                 </div>
@@ -228,7 +228,9 @@
                     </div>
                     <div>
                         <div class="twelfth-div-link-heading">LEGAL</div>
-                        <div><a href="" class="twelfth-div-link">Privacy Policy</a></div>
+                        <div>
+                            <a href="{{ route('homepages.privacy-policy') }}" class="twelfth-div-link">Privacy Policy</a>
+                        </div>
                         <div><a href="" class="twelfth-div-link">Terms of Service</a></div>
                     </div>
                 </div>
