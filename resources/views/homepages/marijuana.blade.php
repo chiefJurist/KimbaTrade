@@ -43,6 +43,8 @@
             <li>24 Hours Expiration time</li>
             <li>Trade Marijuana</li>
         </div>
-        <div class="forex-first-div-btn button">Get Started</div>
+        <a href="{{ route('show.register') }}">
+            <div class="forex-first-div-btn button">Get Started</div>
+        </a>
     </div>
 </x-home-layout>

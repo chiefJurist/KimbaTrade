@@ -8,7 +8,9 @@
             <div class="forex-first-div-body">
                 Trade 70+ FX pairs on the world’s fastest moving and most liquid market. Benefit from tight spreads and fast order execution.
             </div>
-            <div class="forex-first-div-btn button">Get Started</div>
+            <a href="{{route('show.register')}}">
+                <div class="forex-first-div-btn button">Get Started</div>
+            </a>
         </div>
         <div class="forex-first-div-img-con">
             <img src="{{ asset('img/forex-img1.png')}}" alt="" class="w-max">

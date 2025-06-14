@@ -42,7 +42,9 @@
             <div class="div-texts text-gray-500">
                 With almost 20 years of experience, Fundflextrades is one of the largest stock exchange-listed FX & CFD brokers in the world. We have offices in over 13 countries including UK, Poland, Germany, France and Chile.
             </div>
-            <div class="mt-6 md:mt-12 about-third-div-btn button">Open an Account</div>
+            <a href="{{ route('show.register') }}">
+                <div class="mt-6 md:mt-12 about-third-div-btn button">Open an Account</div>
+            </a>
         </div>
         <div class=" pt-10 md:pt-0">
             <img src="{{ asset('img/about-img2.png')}}" alt="" class="w-xl md:w-5xl">
@@ -190,9 +192,17 @@
             </div>
         </div>
         <div class="border border-gray-400 mt-10 p-8 rounded-lg md:flex justify-between items-center relative bg-white">
-            <div class="absolute -top-2 left-5 bg-gray-300 rounded-full w-40 text-center text-sm font-bold">OPEN YOUR ACCOUNT</div>
-            <div class="text-gray-500 pb-8 md:pb-0 font-nunito">Connect with over 450,000 investors in the world’s leading FX Broker</div>
-            <div class="eleventh-div-btn button">Open Account</div>
+            <div class="absolute -top-2 left-5 bg-gray-300 rounded-full w-40 text-center text-sm font-bold">
+                OPEN YOUR ACCOUNT
+            </div>
+            <div class="text-gray-500 pb-8 md:pb-0 font-nunito">
+                Connect with over 450,000 investors in the world’s leading FX Broker
+            </div>
+            <a href="{{ route('show.register') }}">
+                <div class="eleventh-div-btn button">
+                    Open Account
+                </div>
+            </a>
         </div>
     </div>
 

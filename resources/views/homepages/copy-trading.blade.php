@@ -8,7 +8,9 @@
             <div class="forex-first-div-body">
                 Copy Trade Expert traders at a low cost on futures or spot markets.
             </div>
-            <div class="forex-first-div-btn button">Get Started</div>
+            <a href="{{ route('show.register') }}">
+                <div class="forex-first-div-btn button">Get Started</div>
+            </a>
         </div>
         <div class="forex-first-div-img-con">
             <img src="{{ asset('img/copy-trading-img1.png')}}" alt="" class="w-max">

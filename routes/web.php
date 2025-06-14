@@ -1,6 +1,8 @@
 <?php
 
+use App\Http\Controllers\AuthController;
 use App\Http\Controllers\HomepagesController;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -24,4 +26,9 @@ Route::middleware('guest')->controller(HomepagesController::class)->group(functi
     Route::get('contact-us', 'contactUs')->name('homepages.contact-us');
     Route::get('/privacy-policy', 'privacyPolicy')->name('homepages.privacy-policy');
     Route::get('/terms-of-service', 'termsOfService')->name('hompages.terms-of-service');
+});
+
+Route::middleware('guest')->controller(AuthController::class)->group(function(){
+    Route::get('/login', 'showLogin')->name('show.login');
+    Route::get('/register', 'showRegister')->name('show.register');
 });

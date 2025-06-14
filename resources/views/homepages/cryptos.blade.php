@@ -8,7 +8,9 @@
             <div class="forex-first-div-body">
                 Trade Bitcoin and Ethereum CFDs with leverage, low spreads and fast trade execution.
             </div>
-            <div class="forex-first-div-btn button">Get Started</div>
+            <a href="{{ route('show.register') }}">
+                <div class="forex-first-div-btn button">Get Started</div>
+            </a>
         </div>
         <div class="forex-first-div-img-con">
             <img src="{{ asset('img/crypto-img1.png')}}" alt="" class="w-max">
@@ -126,9 +128,11 @@
         <div class="cryto-fifth-div-last-texts">
             Start trading
         </div>
-        <div class="crypto-last-div-btn button mx-auto">
-            Get Started
-        </div>
+       <a href="{{ route('show.register') }}">
+            <div class="crypto-last-div-btn button mx-auto">
+                Get Started
+            </div>
+       </a>
     </div>
 </x-home-layout>
 

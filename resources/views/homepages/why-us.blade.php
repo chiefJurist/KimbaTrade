@@ -17,9 +17,9 @@
         <div class="why-us-second-div-text">
             With our VIP Black account you can trade with zero commissions and razor-thin spreads on all markets, resulting in tremendous savings.
         </div>
-        <div class="why-us-second-div-btn button">
-            Register
-        </div>
+        <a href="{{ route('show.register') }}">
+            <div class="why-us-second-div-btn button">Register</div>
+        </a>
     </div>
 
     {{-- third div --}}

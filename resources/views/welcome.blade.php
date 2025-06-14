@@ -12,7 +12,9 @@
             <div class="div-texts">
                 Access 40,000+ instruments – across asset classes – to trade, hedge and invest from a single account.
             </div>
-            <div class="btn bg-blue-600 mt-8 hover:bg-gray-900 button">Open an Account</div>
+            <div class="btn bg-blue-600 mt-8 hover:bg-gray-900 button">
+                <a href="{{ route('show.register') }}">Open an Account</a>
+            </div>
         </div>
 
         <!-- Optional dark overlay -->
@@ -27,7 +29,9 @@
             <div class="div-texts text-gray-500">
                 With Fundflextrades you get a transparent pricing structure and a secure and regulated trading environment. As an active trader you can also qualify for lower fees and extra benefits.
             </div>
-            <div class="mt-6 md:mt-12 short-white-btn button">Login</div>
+            <div class="mt-6 md:mt-12 short-white-btn button">
+                <a href="{{ route('show.register') }}">Login</a>
+            </div>
         </div>
         <div class=" pt-10 md:pt-0">
             <img src="{{ asset('img/frontpage-pricing-d.webp')}}" alt="" class="w-xl md:w-5xl">
@@ -86,7 +90,9 @@
         <div class="flex justify-center my-5">
             <div class="fourth-div-reg-con">
                 <div class="flex justify-center">
-                    <div class="fourth-div-reg-btn button">Start Trade</div>
+                    <div class="fourth-div-reg-btn button">
+                        <a href="{{ route('show.register') }}">Start Trade</a>
+                    </div>
                 </div>
                 <div class="fourth-div-reg-text">With the little you have you Trend. Join now!</div>
             </div>
@@ -233,7 +239,9 @@
             <div class="text-3xl md:text-5xl font-bold text-center">We accept crypto deposits</div>
             <div class="font-bold text-center font-nunito py-10">Deposit, withdraw and hold your balance in Bitcoin, Ethereum</div>
             <div class="flex justify-center">
-                <div class="eight-div-btn button">Get Started</div>
+                <div class="eight-div-btn button">
+                    <a href="{{ route('show.register') }}">Get Started</a>
+                </div>
             </div>
         </div>
         
@@ -255,7 +263,9 @@
                 Instant market access and endless possibilities for trading, analysis and automation. Metaquotes 5 is an evolution of MT4 with additional features that supercharge your trading.
             </div>
             <div class="flex justify-center md:block">
-                <div class="ninth-div-btn button">Open an Account</div>
+                <div class="ninth-div-btn button">
+                    <a href="{{ route('show.register') }}">Open an Account</a>
+                </div>
             </div>
         </div>
     </div>
@@ -392,7 +402,9 @@
         <div class="border border-gray-400 mt-10 p-8 rounded-lg md:flex justify-between items-center relative bg-white">
             <div class="absolute -top-2 left-5 bg-gray-300 rounded-full w-40 text-center text-sm font-bold">OPEN YOUR ACCOUNT</div>
             <div class="text-gray-500 pb-8 md:pb-0 font-nunito">Connect with over 450,000 investors in the world’s leading FX Broker</div>
-            <div class="eleventh-div-btn button">Open Account</div>
+            <div class="eleventh-div-btn button">
+                <a href="{{ route('show.register') }}">Open Account</a>
+            </div>
         </div>
     </div>
 </x-home-layout>

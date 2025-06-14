@@ -8,7 +8,9 @@
             <div class="forex-first-div-body">
                 Go long or short on the world's most traded international companies such as Google, Netflix, Amazon, Apple, Tesla, Facebook and many more.
             </div>
-            <div class="forex-first-div-btn button">Get Started</div>
+            <a href="{{ route('show.register') }}">
+                <div class="forex-first-div-btn button">Get Started</div>
+            </a>
         </div>
         <div class="forex-first-div-img-con">
             <img src="{{ asset('img/shares-img1.png')}}" alt="" class="w-max">
