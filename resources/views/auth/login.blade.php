@@ -30,7 +30,7 @@
                 <input id="remember" type="checkbox" name="remember" class="scale-150 button">
                 <span class="ml-2 text-gray-500 text-sm md:text-base">Remember this Device</span>
             </div>
-            <a href="" class="text-blue-500 font-bold">
+            <a href="{{ route('forgot-password') }}" class="text-blue-500 font-bold">
                 <div>Forgot Password?</div>
             </a>
         </div>
