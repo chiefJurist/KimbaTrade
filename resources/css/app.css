@@ -384,3 +384,30 @@ td{
 .privacy-policy-header{
   @apply font-bold text-gray-800 text-3xl py-3;
 }
+
+
+
+.auth-logo-con{
+  @apply flex items-center text-lg font-bold font-nunito;
+}
+.auth-header{
+  @apply text-2xl font-bold text-gray-900;
+}
+.auth-sub-head-con{
+  @apply text-center py-5;
+}
+.auth-sub-head-border{
+  @apply text-gray-300;
+}
+.auth-sub-head-text{
+  @apply text-gray-700;
+}
+.auth-input{
+  @apply border border-gray-300 py-2 px-3 rounded-xl w-full;
+}
+.auth-input-div{
+  @apply my-3 text-center;
+}
+.auth-form-btn{
+  @apply bg-blue-600 text-white font-bold p-3 rounded-lg w-full my-5;
+}
