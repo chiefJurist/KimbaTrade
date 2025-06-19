@@ -394,7 +394,7 @@ td{
   @apply text-2xl font-bold text-gray-900;
 }
 .auth-sub-head-con{
-  @apply text-center py-5;
+  @apply text-center py-8;
 }
 .auth-sub-head-border{
   @apply text-gray-300;

@@ -8,7 +8,7 @@
     @vite('resources/js/app.js')
 </head>
 <body>
-    <div class="flex justify-between">
+    <div class="xl:flex justify-between">
         {{-- header for smaller screens --}}
         <div class="bg-blue-100 p-10 xl:hidden">
             <div class="auth-logo-con">
