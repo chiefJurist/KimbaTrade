@@ -411,3 +411,6 @@ td{
 .auth-form-btn{
   @apply bg-blue-600 text-white font-bold p-3 rounded-lg w-full my-5;
 }
+.forgot-password-btn{
+  @apply bg-blue-600 text-white font-bold rounded-xl p-3 hover:bg-blue-300;
+}

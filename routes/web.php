@@ -31,4 +31,5 @@ Route::middleware('guest')->controller(HomepagesController::class)->group(functi
 Route::middleware('guest')->controller(AuthController::class)->group(function(){
     Route::get('/login', 'showLogin')->name('show.login');
     Route::get('/register', 'showRegister')->name('show.register');
+    Route::get('/forgot-password', 'forgotPassword')->name('forgot-password');
 });
