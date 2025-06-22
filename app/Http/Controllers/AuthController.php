@@ -18,6 +18,15 @@ class AuthController extends Controller
         return view('auth.register');
     }
 
+    //validating registration
+    public function register(Request $request) {
+        //validation
+        $validate = $request->validate([
+            'name' => 'required|string|max:255',
+            
+        ]);
+    }
+
     //viewing forgot password
     public function forgotPassword()  {
         return view('auth.forgot-password');
