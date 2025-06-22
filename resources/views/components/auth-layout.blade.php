@@ -2,8 +2,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="{{ asset('img/kimba_trades.png') }}" type="image/png">
-    <title>Kimba Trade</title>
+    <link rel="icon" href="{{ asset('img/truvo_trades.png') }}" type="image/png">
+    <title>Truvo Trade</title>
     @vite('resources/css/app.css')
     @vite('resources/js/app.js')
 </head>
@@ -12,16 +12,16 @@
         {{-- header for smaller screens --}}
         <div class="bg-blue-100 p-10 xl:hidden">
             <div class="auth-logo-con">
-                <img src="{{ asset('img/kimba_trade.png')}}" alt="Kimba Logo" class=" w-16">
-                <span>KimbaTrade</span>
+                <img src="{{ asset('img/truvo_trade.png')}}" alt="Truvo Logo" class=" w-16">
+                <span>TruvoTrade</span>
             </div>
         </div>
 
         {{-- header for bigger screens --}}
         <div class="bg-blue-100 p-10 hidden xl:block basis-1/2">
             <div class="auth-logo-con">
-                <img src="{{ asset('img/kimba_trade.png')}}" alt="Kimba Logo" class=" w-16">
-                <span>KimbaTrade</span>
+                <img src="{{ asset('img/truvo_trade.png')}}" alt="Truvo Logo" class=" w-16">
+                <span>TruvoTrade</span>
             </div>
             <img src="{{asset('img/auth-img1.svg')}}" alt="">
         </div>

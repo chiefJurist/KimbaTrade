@@ -2,8 +2,8 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="icon" href="{{ asset('img/kimba_trades.png') }}" type="image/png">
-        <title>Kimba Trade</title>
+        <link rel="icon" href="{{ asset('img/truvo_trades.png') }}" type="image/png">
+        <title>Truvo Trade</title>
         @vite('resources/css/app.css')
     </head>
     <script>
@@ -41,8 +41,8 @@
             {{-- Header For Screens Greater Than md --}}
             <div class="hidden md:flex px-20 welcome-header">
                 <div class="logo-container">
-                    <img src="{{ asset('img/kimba_trade.png')}}" alt="Kimba Logo" class=" w-16">
-                    <span>Kimba Trade</span>
+                    <img src="{{ asset('img/truvo_trade.png')}}" alt="Truvo Logo" class=" w-16">
+                    <span>TruvoTrade</span>
                 </div>
                 <div class="flex justify-between items-center gap-6 flex-wrap">
                     <a href="{{ route('show.login') }}">
@@ -57,8 +57,8 @@
             {{-- Header For Screens Less Than md: --}}
             <div class="md:hidden flex px-6 welcome-header">
                 <div class="logo-container">
-                    <img src="{{ asset('img/kimba_trade.png')}}" alt="Kimba Logo" class=" w-16">
-                    <span>KimbaTrade</span>
+                    <img src="{{ asset('img/truvo_trade.png')}}" alt="Truvo Logo" class=" w-16">
+                    <span>TruvoTrade</span>
                 </div>
                 <div id="openMenu">
                     <span class="icon-[material-symbols--menu-rounded] external-icon"></span>

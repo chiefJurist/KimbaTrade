@@ -2,7 +2,7 @@
     {{-- first div --}}
     <div class="general-div-container about-first-div-container">
         <div class="md:pr-36">
-            <div class="font-semibold font-nunito text-gray-500 pb-5">ABOUT KIMBATRADE</div>
+            <div class="font-semibold font-nunito text-gray-500 pb-5">ABOUT TRUVOTRADE</div>
             <div class="div-headings">
                 We're one of the largest stock exchange-listed FX & CFD brokers in the world
             </div>
@@ -65,14 +65,14 @@
                 <div><span class="icon-[simple-line-icons--envolope-letter] text-5xl"></span></div>
                 <div class="grow">
                     <div class="about-fourth-div-card-header">Inquiry</div>
-                    <div class="about-second-div-card-text">info@kimbatrade.com</div>
+                    <div class="about-second-div-card-text">info@truvotrade.com</div>
                 </div>
             </div>
             <div class="about-second-div-card">
                 <div><span class="icon-[simple-line-icons--envolope] text-5xl"></span></div>
                 <div class="grow">
                     <div class="about-fourth-div-card-header">Email</div>
-                    <div class="about-second-div-card-text">support@kimbatrade.com</div>
+                    <div class="about-second-div-card-text">support@truvotrade.com</div>
                 </div>
             </div>
         </div>

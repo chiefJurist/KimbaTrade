@@ -40,7 +40,7 @@
         </div>
 
         <div class="auth-input-div">
-            <span>New to KimbaTrade? </span>
+            <span>New to TruvoTrade? </span>
             <a href="{{ route('show.register') }}" class="text-blue-600 font-bold">
                 <span class="">Sign up</span>
             </a>
